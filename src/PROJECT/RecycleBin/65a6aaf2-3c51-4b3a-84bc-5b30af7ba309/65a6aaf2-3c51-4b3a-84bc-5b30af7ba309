@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2025-04-18 20:01:56Z" DisplayName="SetHaptics">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="65a6aaf2-3c51-4b3a-84bc-5b30af7ba309" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="ed27b99a-7ec1-4592-b0a2-9f6df02ea35a" Position="44" Kind="Type" />
+</RestoreDataItem>

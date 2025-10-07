@@ -1,0 +1,38 @@
+{ Type('AXCF2152') }
+RESOURCE IEC 61131-3
+{ DeviceProfileWorksheet('DeviceProfile', Id := '188eeee8-af92-4a91-8440-1d1bf23c4ca4') }
+{ DeviceProfile(
+    Name := 'RES_A5E06123EAB54BBA9CF2E24BA6E3CB16',
+    Parent := ( Name := 'AXCF2152', Version := '2024.0.0'), 
+    UpdateType := 'Manual',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    DownloadFiles := 
+    [
+    ],
+    CommunicationType := 'TcpIp',
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '33554424',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
+    FilesIni := 
+    [
+    ]
+)}
+
+
+TASK Cyclic100 (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#100ms), Id('4c3adfc9-b7b2-4c83-8082-d8823f9fce4b') };
+
+TASK StartupTask (INTERVAL := T#0ms, PRIORITY := 0) { Watchdog(T#100ms), Id('9a8df43a-9558-499e-bf31-aed83de90785') };
+
+PROGRAM MainInstance WITH Cyclic100 : Main { Id('2c33aa64-f709-48f8-a2ef-468bc0618096') };
+
+PROGRAM SoundsInstance WITH Cyclic100 : Sounds { Id('ff465f3b-4f08-4470-90c1-5929ed9a3e46') };
+
+PROGRAM StartupInstance WITH StartupTask : Startup { Id('8d18e68e-9a1c-4c04-94c4-f5feb9180b23') };
+
+END_RESOURCE

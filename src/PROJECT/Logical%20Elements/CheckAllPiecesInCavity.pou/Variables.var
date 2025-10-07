@@ -1,0 +1,24 @@
+{ CustomGroupDefinition('519208b6-6d03-45ab-98f2-5d0db542424e', '') }
+
+VAR_EXTERNAL
+    piece1_dist : BOOL { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('69320ab7-2f58-4944-9a61-e339ace4a071')};
+END_VAR
+
+VAR_OUTPUT
+    all_pieces_in : BOOL { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('d79df601-d33e-4bb4-9199-fc991b3f18b7')};
+END_VAR
+
+VAR_EXTERNAL
+    piece2_dist : BOOL { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('9ac1f5dd-ef32-49fd-91a7-c6f841271e33')};
+    piece3_dist : BOOL { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('a7e55734-db72-4056-8ed1-a7caffb3ef53')};
+END_VAR
+
+VAR
+    NumPiecesInCavities1 : NumPiecesInCavities { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('4e650395-bcc6-4f15-a503-48e3d1abd0e7')};
+    num_pieces_in_cav : INT { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('513bfae6-80ee-4642-b043-dbd91a5a6c8c')};
+END_VAR
+
+VAR_EXTERNAL
+    deck_size : INT { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('2cbc54d4-a261-42d2-9c87-10642a4c7f9c')};
+    UsingSimulator : BOOL { CustomGroupReference('519208b6-6d03-45ab-98f2-5d0db542424e') } {Id('9c43a3b8-3695-4d2c-9d62-39dc12707495')};
+END_VAR

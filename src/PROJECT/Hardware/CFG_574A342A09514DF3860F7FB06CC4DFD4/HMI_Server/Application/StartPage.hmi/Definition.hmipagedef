@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="StartPage" BorderWidth="0">
+  <References>
+    <Documents>
+      <Document Id="d4115aa3-5c13-4a4b-9e8c-e03e62941103" NodeType="HmiPage" Name="Rules" />
+      <Document Id="ab56540f-afd0-4e25-8307-f43b9f61e3e1" NodeType="HmiPage" Name="NumPlayers" />
+    </Documents>
+  </References>
+  <Layers>
+    <Layer>
+      <Objects>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Operation: Falcon Nation" FontFamily="Arial" FontSize="84" FontStyle="normal" FontWeight="700" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>130.9375000000001</X>
+            <Y>86</Y>
+          </Origin>
+          <Location>
+            <X>130.9375000000001</X>
+            <Y>86</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>1082.1249999999998</Width>
+            <Height>123</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text2" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Select a game mode" FontFamily="Arial" FontSize="54" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>361.74999999999994</X>
+            <Y>230.125</Y>
+          </Origin>
+          <Location>
+            <X>361.74999999999994</X>
+            <Y>230.125</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>620.5000000000001</Width>
+            <Height>106.00000000000001</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="13" LineColor="#FFCCD0D2" LineWidth="1" Text="Single Player" FontFamily="Century Gothic" FontSize="54" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Top" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageId="80d71d5b-7b63-4e03-b905-deea04ddf55b" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fit">
+          <Origin>
+            <X>27</X>
+            <Y>813</Y>
+          </Origin>
+          <Location>
+            <X>27</X>
+            <Y>813</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>FALSE</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A1" SourceType="Constant" SourceConstant="0">
+            <DestinationVariableInstance>
+              <Name>GameMode</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A10" SourceType="Constant" SourceConstant="2">
+            <DestinationVariableInstance>
+              <Name>CurrentPage</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A12" SourceType="Constant" SourceConstant="1">
+            <DestinationVariableInstance>
+              <Name>NumPlayers</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="LoadPageAction" Gesture="Click" ID="A11" Page="d4115aa3-5c13-4a4b-9e8c-e03e62941103" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>384.7499999999999</Width>
+            <Height>263.00000000000006</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button2" IsTabSelectable="true" TabOrder="0" NextId="6" LineColor="#FFCCD0D2" LineWidth="1" Text="Multi Player" FontFamily="Arial" FontSize="54" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Top" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageId="8e42533d-95a8-428f-a1ad-7363ad4bd82d" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fit">
+          <Origin>
+            <X>716.8749999999999</X>
+            <Y>378</Y>
+          </Origin>
+          <Location>
+            <X>716.8749999999999</X>
+            <Y>378</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A1" SourceType="Constant" SourceConstant="1">
+            <DestinationVariableInstance>
+              <Name>GameMode</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A2" SourceType="Constant" SourceConstant="1">
+            <DestinationVariableInstance>
+              <Name>CurrentPage</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A5" SourceType="Constant" SourceConstant="2">
+            <DestinationVariableInstance>
+              <Name>NumPlayers</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="LoadPageAction" Gesture="Click" ID="A3" Page="ab56540f-afd0-4e25-8307-f43b9f61e3e1" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>384.75</Width>
+            <Height>262.99999999999994</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button3" IsTabSelectable="true" TabOrder="0" NextId="13" LineColor="#FFCCD0D2" LineWidth="1" Text="Demo Game" FontFamily="Arial" FontSize="54" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Top" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageId="515a7e06-4f00-4956-8c53-92fb122fc216" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fit">
+          <Origin>
+            <X>242.375</X>
+            <Y>378</Y>
+          </Origin>
+          <Location>
+            <X>242.375</X>
+            <Y>378</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A1" SourceType="Constant" SourceConstant="2">
+            <DestinationVariableInstance>
+              <Name>GameMode</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A10" SourceType="Constant" SourceConstant="1">
+            <DestinationVariableInstance>
+              <Name>CurrentPage</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A12" SourceType="Constant" SourceConstant="2">
+            <DestinationVariableInstance>
+              <Name>NumPlayers</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="LoadPageAction" Gesture="Click" ID="A11" Page="ab56540f-afd0-4e25-8307-f43b9f61e3e1" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>384.7499999999999</Width>
+            <Height>263.00000000000006</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+      </Objects>
+    </Layer>
+  </Layers>
+  <Size>
+    <Width>1344</Width>
+    <Height>768</Height>
+  </Size>
+  <MarginColorString>#FFFFFFFF</MarginColorString>
+  <AvailableSecurityScope>Always</AvailableSecurityScope>
+  <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
+  <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
+  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+</HmiPage>

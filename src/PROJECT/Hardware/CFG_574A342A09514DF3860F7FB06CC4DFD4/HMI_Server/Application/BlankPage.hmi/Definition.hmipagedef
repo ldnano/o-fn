@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="BlankPage" BorderWidth="0">
+  <Layers>
+    <Layer />
+  </Layers>
+  <Size>
+    <Width>1344</Width>
+    <Height>768</Height>
+  </Size>
+  <MarginColorString>#FFFFFFFF</MarginColorString>
+  <AvailableSecurityScope>Always</AvailableSecurityScope>
+  <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
+  <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
+  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+</HmiPage>

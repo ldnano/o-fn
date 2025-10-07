@@ -1,0 +1,15 @@
+{ CustomGroupDefinition('d9fee74b-0008-48e9-a02c-851f2b4f32c9', '') }
+
+VAR_EXTERNAL
+    player_scores : playerScores { CustomGroupReference('d9fee74b-0008-48e9-a02c-851f2b4f32c9') } {Id('23e7d9d5-25dd-4f36-8fbf-3c108370d8b5')};
+END_VAR
+
+VAR
+    max_num : INT { CustomGroupReference('d9fee74b-0008-48e9-a02c-851f2b4f32c9') } {Id('121694b6-f9ee-422d-8a8e-22324f6ca7a8')};
+    index : INT { CustomGroupReference('d9fee74b-0008-48e9-a02c-851f2b4f32c9') } {Id('cd167a48-8fbd-4be9-b7b4-954847bf7c65')};
+END_VAR
+
+VAR_EXTERNAL
+    winners : playerScores { CustomGroupReference('d9fee74b-0008-48e9-a02c-851f2b4f32c9') } {Id('de61ed83-24a5-479d-8870-e15a1fad46e9')};
+    NumPlayers : INT { CustomGroupReference('d9fee74b-0008-48e9-a02c-851f2b4f32c9') } {Id('45910843-e753-42a2-a251-88c32c083f0e')};
+END_VAR

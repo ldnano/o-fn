@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>143</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="133" Name="Text8.Text">
+    <Values LanguageID="0" LocalValue="Thanks for playing!" />
+  </Resources>
+  <Resources ID="138" Name="Button3.Text">
+    <Values LanguageID="0" LocalValue="Play Again" />
+  </Resources>
+  <Resources ID="142" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="- LD Nanoline Team" />
+  </Resources>
+</ResourcesDocument>

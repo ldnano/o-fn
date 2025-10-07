@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>126</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="107" Name="Button1.Text">
+    <Values LanguageID="0" LocalValue="Continue" />
+  </Resources>
+  <Resources ID="108" Name="Button2.Text">
+    <Values LanguageID="0" LocalValue="Back" />
+  </Resources>
+  <Resources ID="109" Name="Text3.Text">
+    <Values LanguageID="0" LocalValue="Number of players:" />
+  </Resources>
+  <Resources ID="110" Name="Button3.Text">
+    <Values LanguageID="0" LocalValue="2" />
+  </Resources>
+  <Resources ID="115" Name="TextInput1.Text">
+    <Values LanguageID="0" LocalValue="ABC" />
+  </Resources>
+  <Resources ID="116" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Player 1:" />
+  </Resources>
+  <Resources ID="117" Name="TextInput2.Text">
+    <Values LanguageID="0" LocalValue="ABC" />
+  </Resources>
+  <Resources ID="118" Name="Text4.Text">
+    <Values LanguageID="0" LocalValue="Player 2:" />
+  </Resources>
+  <Resources ID="119" Name="TextInput3.Text">
+    <Values LanguageID="0" LocalValue="ABC" />
+  </Resources>
+  <Resources ID="120" Name="Text5.Text">
+    <Values LanguageID="0" LocalValue="Player 3:" />
+  </Resources>
+  <Resources ID="121" Name="TextInput4.Text">
+    <Values LanguageID="0" LocalValue="ABC" />
+  </Resources>
+  <Resources ID="122" Name="Text6.Text">
+    <Values LanguageID="0" LocalValue="Player 4:" />
+  </Resources>
+  <Resources ID="123" Name="Text2.Text">
+    <Values LanguageID="0" LocalValue="Player names (3 letters):" />
+  </Resources>
+  <Resources ID="124" Name="Button4.Text">
+    <Values LanguageID="0" LocalValue="3" />
+  </Resources>
+  <Resources ID="125" Name="Button5.Text">
+    <Values LanguageID="0" LocalValue="4" />
+  </Resources>
+</ResourcesDocument>

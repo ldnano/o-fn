@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefaultWriteValue="0" DefaultText="">
+  <Entries StartValue="0" EndValue="0" WriteValue="0" Text="A random piece to be removed will be shown on the screen. If you touch the sides of the cavity with the tongs, you lose. Place each piece on the operating tray after removing it. You will have 60 seconds to remove all of the pieces." />
+  <Entries StartValue="1" EndValue="1" WriteValue="1" Text="Each player will be shown a peice to be removed. If someone touches the sides of the cavity with the tongs, the other players will have the chance to &quot;steal&quot; that piece and try to remove it themselves. Place each piece on the operating tray after removing it. You will have a total of 60 seconds to remove all of the pieces." />
+  <Entries StartValue="2" EndValue="2" WriteValue="2" Text="Each player will be shown a peice to be removed. If someone touches the sides of the cavity with the tongs, the other players will have the chance to &quot;steal&quot; that piece and try to remove it themselves. Place each piece on the operating tray after removing it. You will have a total of 60 seconds to remove all of the pieces." />
+  <Entries StartValue="3" EndValue="3" WriteValue="3" Text="BRUTAL MODE: Coming soon..." />
+</TextList>

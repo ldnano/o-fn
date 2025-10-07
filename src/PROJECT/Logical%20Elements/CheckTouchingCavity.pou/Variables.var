@@ -1,0 +1,23 @@
+{ CustomGroupDefinition('a1e00535-6d07-4442-ade9-ba9651c63bbb', '') }
+
+VAR_INPUT
+    piece_num : INT { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('06118f9f-3530-4dd8-b3f0-a283ddbacf28')};
+END_VAR
+
+VAR_OUTPUT
+    touching_cavity : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('c6c61cfb-d35f-421d-b025-1846f7010b7f')};
+END_VAR
+
+VAR_EXTERNAL
+    touching_cavity_1 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('7eb6c620-eb6c-4ab7-a030-7e94c079c153')};
+    touching_cavity_2 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('c909903c-c481-48b7-9c7c-1431f2613e10')};
+    touching_cavity_3 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('f600f174-c884-4062-aae1-92e8d2bd8947')};
+    touching_cavity_4 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('c29f9c78-0ca0-4a0d-83a9-9c521fa66013')};
+    touching_cavity_5 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('79e20384-e5ea-42f9-a39c-1c8a71eadbe6')};
+    touching_cavity_6 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('eceb2a4d-42b9-4c6d-ac10-d2eea15f7a32')};
+    touching_cavity_7 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('47b63cac-c231-4ef4-84ee-65e67167ba98')};
+    touching_cavity_8 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('1b137e87-04af-4289-b41b-73cad454c8aa')};
+    touching_cavity_9 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('0b0a6953-aba7-45e9-b5fa-ed994deb2514')};
+    touching_cavity_10 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('8705ee1a-8d0d-4e26-b211-024b6a252265')};
+    touching_cavity_11 : BOOL { CustomGroupReference('a1e00535-6d07-4442-ade9-ba9651c63bbb') } {Id('c6f59b39-ccda-43e7-b1a6-5f15a378aa8d')};
+END_VAR

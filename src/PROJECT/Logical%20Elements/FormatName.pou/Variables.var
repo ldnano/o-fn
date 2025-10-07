@@ -1,0 +1,15 @@
+{ CustomGroupDefinition('4078a0ef-0fc5-4c2b-91c3-bae49366a09b', '') }
+
+VAR_INPUT
+    input_name : STRING { CustomGroupReference('4078a0ef-0fc5-4c2b-91c3-bae49366a09b') } {Id('f3f2131d-8ea7-4cea-86f0-37e612bca38d')};
+END_VAR
+
+VAR_OUTPUT
+    new_name : STRING { CustomGroupReference('4078a0ef-0fc5-4c2b-91c3-bae49366a09b') } {Id('31085290-b1d7-48ac-ae05-954f9a34779c')};
+END_VAR
+
+VAR
+    letteri : INT { CustomGroupReference('4078a0ef-0fc5-4c2b-91c3-bae49366a09b') } {Id('7b4018a7-1ea3-4041-8f06-938193754a06')};
+    UppercaseLetter1 : UppercaseLetter { CustomGroupReference('4078a0ef-0fc5-4c2b-91c3-bae49366a09b') } {Id('11b6f6ba-0deb-4fc4-99d2-90b7fec19675')};
+    new_letter : STRING { CustomGroupReference('4078a0ef-0fc5-4c2b-91c3-bae49366a09b') } {Id('4669513d-2079-45f8-b3b0-23951a41d0e2')};
+END_VAR

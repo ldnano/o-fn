@@ -1,0 +1,18 @@
+{ CustomGroupDefinition('26c62303-daf8-4b3b-882f-2724b6b6d297', '') }
+
+VAR_INPUT
+    max_num : INT { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('08dafcc7-33c9-473d-8f36-11106ff6bdb1')};
+END_VAR
+
+VAR_OUTPUT
+    current_rand : INT { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('4eef8cfc-71a3-4168-bfda-e87d683de5ba')};
+END_VAR
+
+VAR_EXTERNAL
+    current_piece_in_cavity : BOOL { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('831a3261-8e03-43a9-8e98-3c8615332e54')};
+    UsingSimulator : BOOL { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('4bd1d7ed-6691-441c-adc0-a2879fc88ffa')};
+    CurrentPieceNum : INT { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('aa7d3fee-09ba-42ce-8bc5-82295859c01b')};
+    deck_size : INT { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('bfb08e1e-0a55-41e3-b3a5-a25a160ce7ec')};
+    GameMode : INT { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('c49bede2-dadf-4f9a-8a5a-041b94ffcfa9')};
+    demo_rand_index : INT { CustomGroupReference('26c62303-daf8-4b3b-882f-2724b6b6d297') } {Id('1b70fc53-fb81-4bf9-9679-85aba670e043')};
+END_VAR

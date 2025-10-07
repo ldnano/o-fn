@@ -1,0 +1,46 @@
+{ CustomGroupDefinition('1e65468c-ed7c-43a1-9d2b-cd531293dfcf', '') }
+
+VAR_EXTERNAL
+    GameTimer : REAL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('fcc862f4-dc37-4b38-a493-3d142f4b21c9')};
+    FinishedPieces : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('88bb0033-ff12-42e0-ae20-2129d8a5b501')};
+    NewPiece : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('e75761de-f5fa-4efa-ac4f-7d3a7757a9e0')};
+    GameOver : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('406103dd-1dcb-4309-a014-9ee58f108849')};
+    piece_in_initially : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('30f72917-3a13-4ecf-b9ac-62a467a9d9b1')};
+    piece_timer_enabled : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('e4571cb8-b880-419d-bf1a-a9d8001a7c4d')};
+    has_touched_cavity : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('e08c1d04-417d-4a36-bb6c-9071db7ec463')};
+    piece_completed : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('96a573c2-0b2d-4727-8a64-98a31eaae957')};
+    start_of_game : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('dbd63560-a5ac-4748-a59f-3cd43056bcbe')};
+    CurrentTargetPlayer : INT { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('790e627c-de2c-43f3-977e-9e334dfac257')};
+    num_pieces_finished : INT { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('c4f6dcd5-4c47-4abb-aac0-46b1a486a99d')};
+END_VAR
+
+VAR
+    RandomNumber1 : RandomNumber { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('89133248-dadc-4c5d-8252-b48a3fb2e7ad')};
+END_VAR
+
+VAR_EXTERNAL
+    deck_size : INT { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('ab367ca4-2fbb-42ae-9fd7-24c5f271caaf')};
+    CurrentPieceNum : INT { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('92ff97af-1b14-4a8c-ade2-6104fcb59f46')};
+    list_of_pieces : pieceArray { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('8266736a-20c9-47b6-97d7-0df429c222b7')};
+    attempts_on_piece : INT { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('39a81c10-bbed-466c-911d-c457ced71f8a')};
+    player_scores : playerScores { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('5a6753c3-5835-4a21-8c59-953fa0216215')};
+    P1Name : STRING { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('ea2f8e6d-b628-478f-9c87-8e530b9d83a0')};
+    P2Name : STRING { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('02731046-971b-4cd1-a9c6-1def4c7dafb0')};
+    P3Name : STRING { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('fb76a2cd-cce2-4dc3-9969-4e6f45d430c3')};
+    P4Name : STRING { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('b0749d64-51f2-4a81-a86e-e012d73c2796')};
+    piece_complete_timer_enabled : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('c700a885-e5c7-4892-8cd0-4bd922a7abdd')};
+    piece_complete_timer : INT { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('7d20a16b-703a-4092-bc49-7471cd58e0c8')};
+    simulator_piece_in_cav : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('a433e97c-3b8d-4de2-82b7-65a7d31699e4')};
+    simulator_touched_sides : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('abdd39cd-21c6-46c6-8f33-402a66da5937')};
+END_VAR
+
+VAR
+    SetAllLights1 : SetAllLights { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('d8699936-d072-4eab-b6d9-bcd3a9c145ea')};
+END_VAR
+
+VAR_EXTERNAL
+    has_played_hawk : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('4c275169-9f22-486b-af0f-4abd342a01ab')};
+    haptics_tongs : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('37ccda2a-c52e-4978-a70d-bf6ce13b094e')};
+    GameAborted : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('824eb286-275a-4939-8a8d-88c13a0f69a1')};
+    EndGameEarly : BOOL { CustomGroupReference('1e65468c-ed7c-43a1-9d2b-cd531293dfcf') } {Id('de179ca2-e194-4660-85cd-fcc8a774b8bf')};
+END_VAR

@@ -1,0 +1,9 @@
+{ CustomGroupDefinition('fcd6edb7-3653-4a78-9ddd-f3098b4dd725', '') }
+
+VAR_INPUT
+    input_on : BOOL { CustomGroupReference('fcd6edb7-3653-4a78-9ddd-f3098b4dd725') } {Id('da6953c0-320e-464b-9417-6a002b44053e')};
+END_VAR
+
+VAR_EXTERNAL
+    haptics_tongs : BOOL { CustomGroupReference('fcd6edb7-3653-4a78-9ddd-f3098b4dd725') } {Id('52cc2744-20c4-49b5-8c1d-916e170a1120')};
+END_VAR

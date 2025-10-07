@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2025-04-19 19:53:54Z" DisplayName="demo_controller">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="a6eed3ce-d225-4a42-bc62-17cd71bb1b1b" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="4b461d0d-1ef9-4c9d-9f7c-14e47b00f2d2" Position="43" Kind="Type" />
+</RestoreDataItem>

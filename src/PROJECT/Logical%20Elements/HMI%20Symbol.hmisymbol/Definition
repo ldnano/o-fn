@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Symbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HMI Symbol" ResizeMethod="Scaling">
+  <Objects>
+    <HmiObject xsi:type="HmiText" Rotation="0" ID="Text8" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Winner:" FontFamily="Century Gothic" FontSize="64" FontStyle="normal" FontWeight="700" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+      <Origin>
+        <X>0</X>
+        <Y>0</Y>
+      </Origin>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <TransformCenter>
+        <X>0</X>
+        <Y>0</Y>
+      </TransformCenter>
+      <EnableSecurityScope>Always</EnableSecurityScope>
+      <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+      <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+      <VisibleSecurityScope>Always</VisibleSecurityScope>
+      <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+      <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+      <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+      <DashStyle>
+        <Offset>0</Offset>
+        <Dashes />
+      </DashStyle>
+      <Size>
+        <Width>493.03124999999994</Width>
+        <Height>100</Height>
+      </Size>
+    </HmiObject>
+  </Objects>
+</Symbol>

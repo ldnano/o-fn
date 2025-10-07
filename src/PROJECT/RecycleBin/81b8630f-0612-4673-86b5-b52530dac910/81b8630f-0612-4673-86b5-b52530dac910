@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2025-04-21 14:40:09Z" DisplayName="FindWinners">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="81b8630f-0612-4673-86b5-b52530dac910" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="ea7caca3-5025-4d29-af0a-15b4081726c8" Position="45" Kind="Type" />
+</RestoreDataItem>

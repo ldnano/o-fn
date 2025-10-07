@@ -1,0 +1,3545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="2.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <Import Project="$(AdeProjectTargetsPath)" Condition="'$(AdeProjectTargetsPath)' != ''" />
+   <PropertyGroup>
+      <AdeProductVersion>1.4.34.0</AdeProductVersion>
+      <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
+   </PropertyGroup>
+   <ItemGroup>
+      <Area Name="Safety" />
+   </ItemGroup>
+   <ItemGroup />
+   <ItemGroup>
+      <Folder Include="Hardware">
+         <Id>b614ac7b-e691-415d-9ea0-2d9d7a7e1117</Id>
+         <FolderType>Root</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="References">
+         <Id>e1f1f17a-700b-4d82-b5af-66425b18451f</Id>
+         <FolderType>References</FolderType>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements">
+         <Id>d31eab2b-b1a0-4c93-bdaf-090bc38c49f4</Id>
+         <FolderType>Root</FolderType>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Main.pou">
+         <Id>a528f704-e8bb-4fdf-bf6d-fd0cc4e22aa1</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4">
+         <Id>574a342a-0951-4df3-860f-7fb06cc4dfd4</Id>
+         <FolderType>Configuration</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86</InstanceId>
+         <TypeId>{40F717A2-2DF1-427B-B979-5FACFB805399}</TypeId>
+         <TypeName>AXC F 2152</TypeName>
+         <TypeRevision>00/2024.0.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PLCnext">
+         <Id>63a22db1-ceea-4c03-b55f-e2496564a2a5</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_1</InstanceId>
+         <TypeId>L7_1</TypeId>
+         <TypeName>PLCnext</TypeName>
+         <ParentIndex>7</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16">
+         <Id>a5e06123-eab5-4bba-9cf2-e24ba6e3cb16</Id>
+         <FolderType>Resource</FolderType>
+         <Type>AXCF2152</Type>
+         <Version>2024.0.0</Version>
+         <UpdateType>Never</UpdateType>
+         <IsFixed>true</IsFixed>
+         <TypeId>L7_2</TypeId>
+         <TypeName>eCLR</TypeName>
+         <ParentIndex>8</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\EIP_Master">
+         <Id>e5b0d451-3d13-4e15-8c2b-12d1847add34</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <Visible>False</Visible>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_7</InstanceId>
+         <TypeId>L7_7</TypeId>
+         <TypeName>EIP:Master</TypeName>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server">
+         <Id>d7a0e7ae-8504-47db-9e94-4e10109bba7b</Id>
+         <FolderType>HmiServer</FolderType>
+         <TypeName>HMI:Server</TypeName>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_3</InstanceId>
+         <TypeId>L7_3</TypeId>
+         <ParentIndex>10</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application">
+         <Id>3feb5a15-276e-40ea-bff1-f470c5d2e950</Id>
+         <FolderType>HmiApplication</FolderType>
+         <TypeName>HMI:Application</TypeName>
+         <DisplayName>Application</DisplayName>
+         <ParentIndex>6</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\HMI_Support">
+         <Id>6833d60d-c872-4234-ad7f-499a57d38ab3</Id>
+         <FolderType>HmiSupportFolder</FolderType>
+         <DisplayName>Support</DisplayName>
+         <TypeName>HMI:Support</TypeName>
+         <IsFixed>true</IsFixed>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\OPCUA">
+         <Id>292a3166-f618-4772-b7a8-1f0faa56339b</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_5</InstanceId>
+         <TypeId>L7_5</TypeId>
+         <TypeName>OPCUA</TypeName>
+         <ParentIndex>12</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master">
+         <Id>3caee627-2d59-4340-828a-402d110d4a01</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_4</InstanceId>
+         <TypeId>L7_4</TypeId>
+         <TypeName>PN:Master</TypeName>
+         <ParentIndex>13</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master">
+         <Id>262a1720-53b9-4986-b202-cbe7fc40581a</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_ax</InstanceId>
+         <TypeId>L7_ax</TypeId>
+         <TypeName>AXLF:Master</TypeName>
+         <Visible>true</Visible>
+         <ParentIndex>14</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master">
+         <Id>9f6b219b-8ade-4afd-9620-56429db9e860</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_8</InstanceId>
+         <TypeId>L7_8</TypeId>
+         <TypeName>IB:Master</TypeName>
+         <Visible>false</Visible>
+         <ParentIndex>15</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\HelpTemplate">
+         <Id>3ab50b5d-f90c-43c5-8665-3bad09dc09ed</Id>
+         <FolderType>HelpTemplate</FolderType>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Startup.pou">
+         <Id>ba307e38-0f16-4ceb-b2ff-5df46a86138b</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin">
+         <Id>c628634e-f65c-45d4-8c89-30082199cd8e</Id>
+         <FolderType>RecycleBin</FolderType>
+         <LastestItemNo>4</LastestItemNo>
+         <Visible>false</Visible>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Logic Analyzer">
+         <Id>ce8bae82-1db3-414a-9696-0f0417e0c7d1</Id>
+         <FolderType></FolderType>
+         <ParentIndex>4</ParentIndex>
+      </Folder>
+      <Folder Include="Watch Window">
+         <Id>5579c01c-7297-4433-af67-83fe6bcf78f8</Id>
+         <FolderType></FolderType>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\SoloPlayer.pou">
+         <Id>88927bfa-3f84-488b-a30c-9b262b9ac3e4</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\DealWithPiece.pou">
+         <Id>65a7da9e-5e1e-4372-9a3a-fe679739fdb7</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>10</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\GetNewPiece.pou">
+         <Id>9b9e11a6-fb05-4e59-b5d9-bf91186aeec2</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>11</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\CheckPieceInCavity.pou">
+         <Id>b4b617d3-2220-4754-9f0d-83c6d9880913</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>12</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\MultiPlayerLoop.pou">
+         <Id>54f7384a-fb76-40be-8e23-6bc5b9a7a4b6</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>13</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1">
+         <Id>904637d0-10bd-49df-92fa-00a0162d883c</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>aa81e964-2f69-43c2-a848-744f2f69c541</InstanceId>
+         <TypeId>{39C1E55D-ECBA-4302-BCF7-457AABB96448}</TypeId>
+         <TypeName>AXL SE DO16/1</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_1">
+         <Id>fd9f1f20-c9b4-472a-a7cb-ca44dd2cd65b</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>fc126654-276d-424f-8083-d4742e5023fd</InstanceId>
+         <TypeId>{1731b72b-a26a-4e07-9b43-797c982dd41b}</TypeId>
+         <TypeName>AXL SE DI16/1</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>4</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\CheckTouchingCavity.pou">
+         <Id>fdfec638-243e-424a-9d1b-6b091fece363</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>14</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\RandomNumber.pou">
+         <Id>4bc1876f-0863-4c63-890d-6eb855d722ec</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>15</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\CheckAllPiecesInCavity.pou">
+         <Id>59e4560e-fcc0-4f0d-864a-0733f4e8d57c</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>16</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\ResetBetweenGames.pou">
+         <Id>5b34c53b-84a6-4f27-9d81-0c84c624329c</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>18</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\FormatName.pou">
+         <Id>9e0a7b5a-1637-4841-962b-9757165235a8</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>20</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\UppercaseLetter.pou">
+         <Id>4634e4fd-4fc0-47fe-a0da-61d8821848ab</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>21</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN2">
+         <Id>8fc4e3c1-bb32-4934-887b-8404531ace3b</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>6510fc00-f8a5-4f2a-8eb2-92a31b36641b</InstanceId>
+         <TypeId>{5AE740C3-3F45-4130-AB77-0DD2FE1BE8CA}</TypeId>
+         <TypeName>AXL SE DO16/1 NPN</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>7</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN3">
+         <Id>700be566-a7e5-4912-9640-daa75da67125</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>ede2d443-a3df-483f-b9ce-1f24499f94d8</InstanceId>
+         <TypeId>{5AE740C3-3F45-4130-AB77-0DD2FE1BE8CA}</TypeId>
+         <TypeName>AXL SE DO16/1 NPN</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>8</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN4">
+         <Id>580c6182-01a6-4e4a-88ba-612d2d5684e4</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>04371584-2679-4dbd-b92f-5e3bf0f1f344</InstanceId>
+         <TypeId>{5AE740C3-3F45-4130-AB77-0DD2FE1BE8CA}</TypeId>
+         <TypeName>AXL SE DO16/1 NPN</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN1">
+         <Id>411c9203-52fb-4172-842d-54316df9238d</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>70ef41e6-7437-42f6-9812-e85a13f1deef</InstanceId>
+         <TypeId>{5AE740C3-3F45-4130-AB77-0DD2FE1BE8CA}</TypeId>
+         <TypeName>AXL SE DO16/1 NPN</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>10</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\NumPiecesInCavities.pou">
+         <Id>50c51b3c-92c2-444f-8828-28d43c3ceec5</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>22</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\1b971aec-0ec5-4b81-bdd9-7b4c3a351e7b">
+         <Id>597b93c8-4fea-4703-ad92-a21bf0cf5d5e</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>5</ItemNo>
+         <ParentIndex>15</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\b597214e-71cd-4dad-98dc-8b364a367a4e">
+         <Id>a41a9372-59c9-4ed7-bb45-2b74b6b6a43d</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>6</ItemNo>
+         <ParentIndex>14</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\3f1c05c8-d1a5-4b06-9469-a4982216316f">
+         <Id>a41a3dec-fc2d-465f-aa4c-d8007613709c</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>7</ItemNo>
+         <ParentIndex>13</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\9e426257-d63b-4e62-a37e-952ffe60a1b3">
+         <Id>f1f01a0e-03ff-4527-83a4-97352e35e800</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>8</ItemNo>
+         <ParentIndex>12</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\ad697fd2-3194-4823-ae66-569adaa02f68">
+         <Id>e383758b-8646-472c-a3e4-b4dbf906df8f</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>9</ItemNo>
+         <ParentIndex>11</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\5ca63501-a78c-4608-a0ca-f3da857ba76c">
+         <Id>e1cb671c-9501-44eb-a905-f1d5506b659d</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>10</ItemNo>
+         <ParentIndex>10</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\b0590a7f-5922-42ba-b054-9e9016190ecf">
+         <Id>19e0c341-efb2-4b03-8dd6-3d1a8c36f8b4</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>11</ItemNo>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\3fb099ce-f51a-45da-b41f-1b0af93608d1">
+         <Id>a737b3c4-a40c-4692-b3af-abb96a9926b0</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>12</ItemNo>
+         <ParentIndex>8</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\b48190d1-da10-49e7-a548-9b0f1624cbc8">
+         <Id>2066fc1a-a41e-417d-a851-95950617bdd1</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>13</ItemNo>
+         <ParentIndex>7</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\a84c1eed-f5fb-4674-81a7-0d9596ba5c9d">
+         <Id>be33f688-3794-4f21-b501-6c09c0da2a64</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>14</ItemNo>
+         <ParentIndex>6</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\389b19cf-1863-4a90-a12a-e6676f10d4d3">
+         <Id>a2117c70-ab61-48a0-af30-d77a4e361979</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>15</ItemNo>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\SetLights.pou">
+         <Id>039a92bf-8168-4d31-8cc1-378e7996b8f9</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>35</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\SetAllLights.pou">
+         <Id>a6dbe71e-6022-4452-8f6c-ba05c4a2499a</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>36</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\CalcWinningPlayer.pou">
+         <Id>3e0dbbdd-98a8-47d6-807d-1cd0a9fda683</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>37</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_AI4_U_0-10">
+         <Id>d257cac9-3054-472c-bcbd-fed47913b725</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>376c3a90-5a0e-412e-b903-3a6f6f0c1460</InstanceId>
+         <TypeId>{29a46d5f-387c-4946-8881-c01efeb13ca4}</TypeId>
+         <TypeName>AXL SE AI4 U 0-10</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_11">
+         <Id>f910e113-974a-4287-b3ab-15de21f948c8</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>c044a014-53a6-4df6-a6f7-42299ba9606b</InstanceId>
+         <TypeId>{1731b72b-a26a-4e07-9b43-797c982dd41b}</TypeId>
+         <TypeName>AXL SE DI16/1</TypeName>
+         <TypeRevision>00/1.00</TypeRevision>
+         <ParentIndex>6</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\12cb8e6f-f707-438e-8a20-6b1fc8cd5964">
+         <Id>61f93a2b-30c6-4515-b158-82dbc5c5b2ff</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>16</ItemNo>
+         <ParentIndex>4</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\SetHMIPieceVars.pou">
+         <Id>a1ec7d4b-787f-4e7c-bb63-4f207c2b93a1</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>40</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Sounds.pou">
+         <Id>5998e3ae-6893-4cf9-914c-7b92931e882c</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>41</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309">
+         <Id>968e57b0-20b6-4c12-b92b-c4583ff33230</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>1</ItemNo>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou">
+         <Id>65a6aaf2-3c51-4b3a-84bc-5b30af7ba309</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a">
+         <Id>15b3d817-b095-4ad8-9b45-256eb39f7700</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>2</ItemNo>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou">
+         <Id>ed27b99a-7ec1-4592-b0a2-9f6df02ea35a</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\a6eed3ce-d225-4a42-bc62-17cd71bb1b1b">
+         <Id>519084f5-36ee-4acc-bd05-a23931856af7</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>3</ItemNo>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\LightRedEmptyCavities.pou">
+         <Id>d9fc5888-e67e-4800-bba5-cb5371cc8c04</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>43</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910">
+         <Id>4ab0b085-eb66-4abc-b28b-34bf2f0fdb70</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>4</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou">
+         <Id>81b8630f-0612-4673-86b5-b52530dac910</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server">
+         <Id>6b032967-94fd-4224-b239-f3437928cdaa</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_10</InstanceId>
+         <TypeId>L7_10</TypeId>
+         <TypeName>ALARM:Server</TypeName>
+         <ParentIndex>11</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster">
+         <Id>a938f02d-1364-4ff2-9c40-16896c03a28a</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b6ae1479-86d2-4027-a099-cf4e84deff86.L7_9</InstanceId>
+         <TypeId>L7_9</TypeId>
+         <TypeName>IB:RemoteMaster</TypeName>
+         <Visible>false</Visible>
+         <ParentIndex>16</ParentIndex>
+      </Folder>
+   </ItemGroup>
+   <ItemGroup>
+      <TopologyDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.topology">
+         <Id>d584f2bd-b0af-4e64-ae7f-bdc51e783f61</Id>
+         <Visible>False</Visible>
+         <ParentIndex>10</ParentIndex>
+      </TopologyDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <OnlineRepositoryDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.onlinerepo">
+         <Id>4f1586bd-14da-43a0-87ca-b61d7e35143d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>9</ParentIndex>
+      </OnlineRepositoryDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <NetworkDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.DataLink">
+         <Id>950a1f96-44ee-4bc2-b5e8-b40fcb0f3cbb</Id>
+         <Visible>False</Visible>
+         <ParentIndex>8</ParentIndex>
+      </NetworkDocument>
+      <NetworkDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.Transport">
+         <Id>4f948936-61ea-47a4-a530-23fd3c1999b0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </NetworkDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DiscoveryDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.discovery">
+         <Id>81d5dbce-c705-4373-9b83-23f645d025fa</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DiscoveryDocument>
+      <DiscoveryDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_4.discovery">
+         <Id>e80c60d3-84ff-4b1b-aad5-7bc39dcdb73f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DiscoveryDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <VlanConfiguratorDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.vlan">
+         <Id>98c08c2e-dc27-4b3a-8bba-de82cf5e80ba</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </VlanConfiguratorDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <VlanGeneratorDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.vlangen">
+         <Id>23a436b3-83a3-4199-862d-4d65ed23feaf</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </VlanGeneratorDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ParameterViewerDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.vpar">
+         <Id>e1e65d33-c84b-47a4-bcd3-58c6b9c25a0b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </ParameterViewerDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <TransportDeviceListDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.transportdevlst">
+         <Id>c22abffd-fcb9-4ff8-a5c3-3eec29e11982</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </TransportDeviceListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ProjectSettingsDocument Include="Hardware\55df4206-d320-45b5-857c-f3b9263a8ac7.projset">
+         <Id>2ed4f413-191d-4e81-a8c1-4e45992994a4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </ProjectSettingsDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <UserMetadata Include="Hardware\VersionHistory.usermeta">
+         <Id>bcf455db-6108-4e84-9aab-ab68ea31f6c0</Id>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Main.pou\VersionHistory.usermeta">
+         <Id>20f2f258-7e14-4551-9b42-0d0b875cbd94</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Startup.pou\VersionHistory.usermeta">
+         <Id>612d927b-1ada-40a6-91af-ed5e1ab42416</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\SoloPlayer.pou\VersionHistory.usermeta">
+         <Id>863276bd-9c0a-4f37-a9b5-ce718c0b7d5c</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\DealWithPiece.pou\VersionHistory.usermeta">
+         <Id>58dd558f-123d-46be-acc1-029f8c0935f3</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\GetNewPiece.pou\VersionHistory.usermeta">
+         <Id>961b9108-4f5a-4fc9-9f28-0d75aafb480e</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\CheckPieceInCavity.pou\VersionHistory.usermeta">
+         <Id>cf5987e8-3fa2-4ee4-9eec-3eb792ec652e</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\MultiPlayerLoop.pou\VersionHistory.usermeta">
+         <Id>a178193a-cf3b-4900-9394-d2d4d6c6fd93</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\CheckTouchingCavity.pou\VersionHistory.usermeta">
+         <Id>062cb883-f8c3-4087-bf1e-fb0986436411</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\RandomNumber.pou\VersionHistory.usermeta">
+         <Id>c6582145-74e8-4258-9f12-08cc65b9b68b</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\CheckAllPiecesInCavity.pou\VersionHistory.usermeta">
+         <Id>6a2e124b-1b2b-4a7f-a2c4-52f940d8cd79</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\ResetBetweenGames.pou\VersionHistory.usermeta">
+         <Id>96f324bc-3140-42f0-a844-50278b80535c</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\FormatName.pou\VersionHistory.usermeta">
+         <Id>0d99f4d7-84d7-4a8a-88ae-964be46b314d</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\UppercaseLetter.pou\VersionHistory.usermeta">
+         <Id>50f8ec70-11d8-4591-b258-3cb5e5b484b1</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\NumPiecesInCavities.pou\VersionHistory.usermeta">
+         <Id>ef2d274b-c5ad-41b2-aed5-9f9c4aeee0d8</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\SetLights.pou\VersionHistory.usermeta">
+         <Id>faa385c6-6243-4519-8bd1-5f88fb4efb99</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\SetAllLights.pou\VersionHistory.usermeta">
+         <Id>ee7aab42-9791-456e-8e45-116effe8344d</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\CalcWinningPlayer.pou\VersionHistory.usermeta">
+         <Id>34138cbe-8fc4-4ade-81d7-5410768a8def</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\HMI Symbol.hmisymbol\VersionHistory.usermeta">
+         <Id>fd9227af-865e-401b-bbb5-e3f0d0b8e105</Id>
+         <ParentIndex>6</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\SetHMIPieceVars.pou\VersionHistory.usermeta">
+         <Id>594f109e-793a-4946-afb5-0e147fdd309b</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>11</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Sounds.pou\VersionHistory.usermeta">
+         <Id>9f1d6f3e-aa53-4720-bf41-4a81f031b3a3</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\VersionHistory.usermeta">
+         <Id>53d15abf-3446-4563-a132-b0ef475418f3</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\VersionHistory.usermeta">
+         <Id>c8f5762d-3662-4d70-b715-97d58c6be324</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\LightRedEmptyCavities.pou\VersionHistory.usermeta">
+         <Id>37fd3c51-d193-444d-957c-c3a3e91247e2</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\VersionHistory.usermeta">
+         <Id>9b4e19a0-b0d9-481d-9307-b3f4dbca2d82</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+   </ItemGroup>
+   <ItemGroup>
+      <UserMetadataDescription Include="Hardware\Description.en.html">
+         <Id>abb19967-a48e-4b98-8f6b-c2c0e6644d6f</Id>
+         <Visible>False</Visible>
+         <Extension>.html</Extension>
+         <Culture>en</Culture>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Main.pou\Description.html">
+         <Id>94388c8e-4f33-480c-9cb4-ea9c632bf61b</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Main.pou\Description.rtf">
+         <Id>6d2fa36e-7f94-4c0c-81aa-bc449a79e9f8</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Startup.pou\Description.html">
+         <Id>579ada85-f818-4608-8197-ccc87bc97af3</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Startup.pou\Description.rtf">
+         <Id>7b1d7cb0-821a-4f28-96da-d4859ecaac1e</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SoloPlayer.pou\Description.html">
+         <Id>a6e5f0e2-26f8-460b-aa48-7bc80b9f84b0</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SoloPlayer.pou\Description.rtf">
+         <Id>a589aca3-d81d-4915-82da-e4cd5748ec68</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\DealWithPiece.pou\Description.html">
+         <Id>4b2ab534-1b52-4a4e-9c1b-098af1ae586f</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\DealWithPiece.pou\Description.rtf">
+         <Id>b838a3ef-579a-4358-a68e-d082a7c83d89</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\GetNewPiece.pou\Description.html">
+         <Id>570ccdbb-2496-48b4-b1ea-b216514a6317</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\GetNewPiece.pou\Description.rtf">
+         <Id>6ad56a37-98f7-41ea-a26c-8e3b65814992</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CheckPieceInCavity.pou\Description.html">
+         <Id>02f39cf4-5def-47a7-b4fc-916e9a62d37b</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CheckPieceInCavity.pou\Description.rtf">
+         <Id>85d1ffc3-f752-4643-a4e7-8cfeaf076188</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\MultiPlayerLoop.pou\Description.html">
+         <Id>eeabd11e-f14a-4476-b864-6d5fd83a1eab</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\MultiPlayerLoop.pou\Description.rtf">
+         <Id>3c16e5ea-1525-46c9-9edf-dafa0fe013c8</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CheckTouchingCavity.pou\Description.html">
+         <Id>141d9659-1a6d-4ce8-b99b-512b4cfe5e26</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CheckTouchingCavity.pou\Description.rtf">
+         <Id>30490966-1262-4629-990c-dbf64a68f126</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\RandomNumber.pou\Description.html">
+         <Id>677e793e-699c-4e34-addb-497fe06d3fc7</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\RandomNumber.pou\Description.rtf">
+         <Id>79e27cfd-1d5a-48a7-8369-8ca974b54aee</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CheckAllPiecesInCavity.pou\Description.html">
+         <Id>89438a09-bb06-4c4f-9d5e-3da41142acc1</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CheckAllPiecesInCavity.pou\Description.rtf">
+         <Id>731b162b-4650-4fcc-9345-d8b86dc3dab6</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\ResetBetweenGames.pou\Description.html">
+         <Id>a534967c-021e-4e79-9e9c-b77272439425</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\ResetBetweenGames.pou\Description.rtf">
+         <Id>a6056c6a-344e-496b-97b0-40ca2eebb745</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\FormatName.pou\Description.html">
+         <Id>79ffb3b3-8ec8-4d0b-9c08-c1590c1a5fec</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\FormatName.pou\Description.rtf">
+         <Id>3d47ca75-a78e-4bc6-9ae5-4803263830e2</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\UppercaseLetter.pou\Description.html">
+         <Id>0921d262-f227-44f5-b602-9df553ea27bd</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\UppercaseLetter.pou\Description.rtf">
+         <Id>ecd501e4-7379-4e90-bfc3-f544bffbd69f</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\NumPiecesInCavities.pou\Description.html">
+         <Id>7a5cba7d-5a71-4a2f-98c5-fbe1bdb6c180</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\NumPiecesInCavities.pou\Description.rtf">
+         <Id>8f07a713-221d-4f27-b191-1f1cba745005</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SetLights.pou\Description.html">
+         <Id>d1b5c34c-9341-4f9f-9a7d-0383780a7fe7</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SetLights.pou\Description.rtf">
+         <Id>26bee537-93ba-4b8d-9c47-50191da8914e</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SetAllLights.pou\Description.html">
+         <Id>5fe1e940-80b9-4bc9-bf3f-d7efc69dec89</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SetAllLights.pou\Description.rtf">
+         <Id>831c7a16-eba5-41b1-b4ef-1b3ece624610</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CalcWinningPlayer.pou\Description.html">
+         <Id>5d35768d-c2e1-48e0-88af-d2d2d610c019</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\CalcWinningPlayer.pou\Description.rtf">
+         <Id>68d8541f-e030-453b-b66c-332061788448</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\HMI Symbol.hmisymbol\Description.en.html">
+         <Id>c28c4d71-17b2-4dd7-a9e5-a67d437d4f8f</Id>
+         <Visible>False</Visible>
+         <Extension>.html</Extension>
+         <Culture>en</Culture>
+         <ParentIndex>7</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SetHMIPieceVars.pou\Description.html">
+         <Id>452eec0b-269d-4bd2-af2b-5cddb63632b4</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>12</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\SetHMIPieceVars.pou\Description.rtf">
+         <Id>c26805d7-617b-46d8-a764-c8c47c53631e</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>13</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Sounds.pou\Description.html">
+         <Id>3bfab60e-0418-4178-84e6-99577b1a5dbf</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Sounds.pou\Description.rtf">
+         <Id>00330e81-f21f-4c08-a42c-64491d9eb421</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\Description.html">
+         <Id>23f41cde-68a0-42a0-82a4-91c7e1aaf523</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\Description.rtf">
+         <Id>7aea1e1f-1957-4f11-b55c-c6a7aa036ce6</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\Description.html">
+         <Id>e5ddcf52-5a14-4aaf-b958-df4dba038538</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\Description.rtf">
+         <Id>0a537e48-0ac0-42a5-95ec-f459a387bc75</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\LightRedEmptyCavities.pou\Description.html">
+         <Id>dd24fd61-9c8b-417d-bc7a-26d7a747983d</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\LightRedEmptyCavities.pou\Description.rtf">
+         <Id>0f8a2d07-54da-4393-8289-45508dc23819</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\Description.html">
+         <Id>b9e2b719-f8eb-43b3-8fa4-292b34379f33</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\Description.rtf">
+         <Id>81eb8be1-e10c-4910-ab36-812d432e96ed</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+   </ItemGroup>
+   <ItemGroup>
+      <SolutionReference Include="PLCnext Controller">
+         <Id>9744e369-588c-412b-b092-e97904bd9e73</Id>
+         <HintPath>$(SystemLibrariesPath)\PLCnext Controller.pcwlx</HintPath>
+         <LibraryId>6bdddd6e-fe52-4478-94e4-617f2ff7e643</LibraryId>
+         <ParentIndex>0</ParentIndex>
+      </SolutionReference>
+   </ItemGroup>
+   <ItemGroup>
+      <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
+         <Id>9377fae2-3366-4f72-ace8-f32def19dda9</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Startup.pou\Metadata.meta">
+         <Id>412a9b0d-2f00-4dd0-b59a-1b7cc3bd95fb</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\SoloPlayer.pou\Metadata.meta">
+         <Id>69452b40-8606-4748-b8b6-01303d752efa</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\DealWithPiece.pou\Metadata.meta">
+         <Id>99401897-a95e-47e3-a74f-9fc080371896</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\GetNewPiece.pou\Metadata.meta">
+         <Id>30ea6be2-5849-42d4-a63d-d8bb2681096e</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\CheckPieceInCavity.pou\Metadata.meta">
+         <Id>bb3eb724-8a8b-4d74-b6c0-e778e018df6c</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\MultiPlayerLoop.pou\Metadata.meta">
+         <Id>60421404-0335-40b8-91c4-d89e6e98bcf8</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\CheckTouchingCavity.pou\Metadata.meta">
+         <Id>4a93e03e-a5aa-4433-b4e2-5c4162b22dc2</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\RandomNumber.pou\Metadata.meta">
+         <Id>43535d48-f076-4374-984c-1124f9dcce0f</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\CheckAllPiecesInCavity.pou\Metadata.meta">
+         <Id>99e06513-68a8-49b1-bc82-800cdd84c57d</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\ResetBetweenGames.pou\Metadata.meta">
+         <Id>316bf4c2-0959-4c9f-a7a7-f6b667fbb3da</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\FormatName.pou\Metadata.meta">
+         <Id>fc3456ab-80c2-4bbe-8fae-398006de0699</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\UppercaseLetter.pou\Metadata.meta">
+         <Id>376341c2-4ca2-48a6-8c45-8ed8517fb12e</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\NumPiecesInCavities.pou\Metadata.meta">
+         <Id>663b3753-222d-4a0e-9257-ae284da62a37</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\SetLights.pou\Metadata.meta">
+         <Id>8a8c6324-611a-4dfd-bedb-6a0954975a11</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\SetAllLights.pou\Metadata.meta">
+         <Id>1a4bb533-7a26-4c52-b94b-934b77afceed</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\CalcWinningPlayer.pou\Metadata.meta">
+         <Id>c8d07c87-3b20-44e5-b9e1-7bda59b1f47d</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\SetHMIPieceVars.pou\Metadata.meta">
+         <Id>22d3b892-17ca-48ad-857b-5e44af952ffe</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>9</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Sounds.pou\Metadata.meta">
+         <Id>ec4cb709-8102-4aac-8a5b-e56bbdeed87c</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\Metadata.meta">
+         <Id>1f6881e7-577b-4f33-97fe-5fd5d5af21bc</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\Metadata.meta">
+         <Id>daa17d63-b5f5-4cd6-86e1-5382861b9eaa</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\LightRedEmptyCavities.pou\Metadata.meta">
+         <Id>e44840a8-b942-44a0-a3cf-c10f0ddc5ea2</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\Metadata.meta">
+         <Id>41015a51-2feb-4e7f-956f-2833cee26483</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <VariableWorksheet Include="Logical Elements\Main.pou\Variables.var">
+         <Id>8d2e39ce-0467-4902-9ce5-c430131ca0a9</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\GlobalVariables.var">
+         <Id>2d2c5146-8741-46e0-af74-9769a6ca9f7f</Id>
+         <IsVarConfig>true</IsVarConfig>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Startup.pou\Variables.var">
+         <Id>4ef538df-b365-4bf2-b508-8675a4cef627</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\SoloPlayer.pou\Variables.var">
+         <Id>437e8171-befe-407c-9a59-539dc303fe19</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\DealWithPiece.pou\Variables.var">
+         <Id>b13f457c-1b4f-47e1-b1f0-58bf9413d7ca</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\GetNewPiece.pou\Variables.var">
+         <Id>ae510f2c-48fc-4862-bea9-1939da7f79cd</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\CheckPieceInCavity.pou\Variables.var">
+         <Id>184424ad-ae6f-4924-a614-05b384a8145a</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\MultiPlayerLoop.pou\Variables.var">
+         <Id>19bb7974-a540-4a81-b660-ec8c4778ae96</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\CheckTouchingCavity.pou\Variables.var">
+         <Id>ba965f89-3a5a-4049-8aae-791e0c2c122b</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\RandomNumber.pou\Variables.var">
+         <Id>34007fe2-328c-4bd9-988b-af4df311af96</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\CheckAllPiecesInCavity.pou\Variables.var">
+         <Id>55c5894d-601a-406e-ae51-b836a218d239</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\ResetBetweenGames.pou\Variables.var">
+         <Id>cfb75d59-a44e-42f2-b2e6-5ef56b24bab7</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\FormatName.pou\Variables.var">
+         <Id>53071bea-a039-497c-8206-96212f910090</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\UppercaseLetter.pou\Variables.var">
+         <Id>68acf016-2aeb-4831-9b5b-2d7592b623a1</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\NumPiecesInCavities.pou\Variables.var">
+         <Id>e2562b58-0b14-4b52-8bb3-aacf8b6af0f5</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\SetLights.pou\Variables.var">
+         <Id>8535a7aa-4f1a-4cd0-b287-c01513efd48c</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\SetAllLights.pou\Variables.var">
+         <Id>e9de1f72-5430-440b-8add-b6a5f916d425</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\CalcWinningPlayer.pou\Variables.var">
+         <Id>f4c37625-8bb5-495f-8dec-675932439697</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\SetHMIPieceVars.pou\Variables.var">
+         <Id>d68d20c2-f77f-47e0-a4a4-07541cf6dd4d</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>10</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Sounds.pou\Variables.var">
+         <Id>3f245308-c3ff-4db8-a0cb-70686119dfc6</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\Variables.var">
+         <Id>cff749da-f961-4e9c-af38-5401e6aef247</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\Variables.var">
+         <Id>398fa41d-dc7a-43d1-9ba3-3d6f4b505e87</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\LightRedEmptyCavities.pou\Variables.var">
+         <Id>8e943cdf-1bef-40a5-9c17-9d616911d486</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\Variables.var">
+         <Id>a5f0ce36-96fb-412f-b2aa-8c066acd6d0e</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <LocalResourcesListDocument Include="Logical Elements\Main.pou\Resources.locreslst">
+         <Id>4c4ec946-d276-4d7e-8b0c-c2d22797be3c</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\Startup.pou\Resources.locreslst">
+         <Id>acfd10d1-53b5-4f7b-86b3-e62085604ae9</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\Pieces.textlist\Resources.locreslst">
+         <Id>f9e1c6c5-535d-460c-a3c4-3cfcf205d6fa</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\PieceImages.imagelist\Resources.locreslst">
+         <Id>985a05fd-7eb4-47dd-ad30-b7c0e6a1fa1d</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\Rules.textlist\Resources.locreslst">
+         <Id>0b0ba3ba-be98-4172-a252-05f8d7397dda</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\SoloPlayer.pou\Resources.locreslst">
+         <Id>1b0e2d7b-b9e2-4160-aae6-993633460b80</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\DealWithPiece.pou\Resources.locreslst">
+         <Id>d39498e3-d831-4859-a2be-64082f7fd8c3</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\GetNewPiece.pou\Resources.locreslst">
+         <Id>1b0c30ee-002f-4913-88bc-1bd8e1b367a0</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\CheckPieceInCavity.pou\Resources.locreslst">
+         <Id>9a062c57-b5b0-49f8-8716-a6b7d4732859</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\MultiPlayerLoop.pou\Resources.locreslst">
+         <Id>3dcd5f3e-13a4-4f54-a33f-06dc4e1583ff</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\CheckTouchingCavity.pou\Resources.locreslst">
+         <Id>4fc03d15-0c7b-4fde-b27f-2ea41ebb9ace</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\RandomNumber.pou\Resources.locreslst">
+         <Id>1e3228bb-6f13-419c-ae56-bedab087daa7</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\CheckAllPiecesInCavity.pou\Resources.locreslst">
+         <Id>33fcea02-b3fb-472d-a530-ba03a3d03d60</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\ResetBetweenGames.pou\Resources.locreslst">
+         <Id>36c43047-66d6-4d94-8261-8d4580515654</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\PieceScores.textlist\Resources.locreslst">
+         <Id>ccaccfd3-d0a1-4894-9cca-18c6feb94d2f</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\FormatName.pou\Resources.locreslst">
+         <Id>406f849e-a3b2-4132-a2c2-80a7bd0a7f94</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\UppercaseLetter.pou\Resources.locreslst">
+         <Id>1ba34514-c33c-4a60-8420-5d5eb84ee0c3</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\NumPiecesInCavities.pou\Resources.locreslst">
+         <Id>83cc4e51-611b-466e-bff8-1914c1e3e46b</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\SetLights.pou\Resources.locreslst">
+         <Id>cea98c68-56a6-4a39-a280-d5d9574d03b0</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\SetAllLights.pou\Resources.locreslst">
+         <Id>2b285bd9-69ec-4c81-8935-116eb4e3c79a</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\CalcWinningPlayer.pou\Resources.locreslst">
+         <Id>2ea394e6-6fa6-480a-9d25-be14ee5599eb</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\HMI Symbol.hmisymbol\Resources.locreslst">
+         <Id>81267a44-2952-4049-b7b0-8c6ea009f9fa</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\SetHMIPieceVars.pou\Resources.locreslst">
+         <Id>83ce771e-0064-422d-b03a-98c89a0314d1</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\Sounds.pou\Resources.locreslst">
+         <Id>6caed080-0396-4a8a-a511-3c1e549ed336</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\Resources.locreslst">
+         <Id>be36c6ab-7bea-4343-847c-641fa79bcc63</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\Resources.locreslst">
+         <Id>6679ce66-5a53-497f-9545-d880152010c1</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\LightRedEmptyCavities.pou\Resources.locreslst">
+         <Id>fea6eb7c-9625-47e8-80df-74aee1679966</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\Resources.locreslst">
+         <Id>657c1d08-0470-4070-943f-09b392a302ed</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server\Resources.locreslst">
+         <Id>c122abae-32ba-490d-a9a3-29226363a0f6</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResourcesListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <LocalResources Include="Logical Elements\Main.pou\Variables.var.locres">
+         <Id>00a969e4-f919-400a-9e42-0714961f1aa4</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Main.pou\User.locres">
+         <Id>e2f5a065-ce7a-4306-b598-7cd62ec04c65</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage.hmi\Definition.hmipagedef.locres">
+         <Id>30e4670d-b0c5-4fa4-b4fd-4c0f442fa6c6</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage.hmi\Definition.hmipagedef.locres">
+         <Id>cc975ce7-e925-4e39-9940-16b5788be220</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Startup.pou\Variables.var.locres">
+         <Id>a91f09ab-123d-4816-a3e8-804f7c4a479b</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Startup.pou\User.locres">
+         <Id>7cd7fb5a-ee3c-43c0-a9f6-ab0a7578ad29</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Pieces.textlist\Definition.locres">
+         <Id>7cab4145-b12d-4fcb-a364-e36d9c471e8f</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\PieceImages.imagelist\Definition.locres">
+         <Id>7f230e44-f3d8-4a0f-a787-5415537a850e</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage.hmi\Definition.hmipagedef.locres">
+         <Id>40020c5e-03e8-47ec-a1a2-4e60eece80b0</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GameOver.hmi\Definition.hmipagedef.locres">
+         <Id>c9bc8efa-2707-465e-81f7-40526d422565</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\NumPlayers.hmi\Definition.hmipagedef.locres">
+         <Id>c2fdd52f-8862-43fd-8c20-0d02eba7642c</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\Rules.hmi\Definition.hmipagedef.locres">
+         <Id>18422efd-f513-427a-abae-da61383706df</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Rules.textlist\Definition.locres">
+         <Id>e1498380-fa48-4c8a-a444-b5988cff23c8</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SoloPlayer.pou\Variables.var.locres">
+         <Id>3a1f7c49-9fe4-4906-9531-d74964a9fc05</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SoloPlayer.pou\User.locres">
+         <Id>d97fb169-32ed-4e81-a5ff-a281b6948baf</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\DealWithPiece.pou\Variables.var.locres">
+         <Id>a8617b2b-3400-4e06-bb44-0c366df036ba</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\DealWithPiece.pou\User.locres">
+         <Id>f817e7be-7923-47f8-aac3-99489f33883a</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\GetNewPiece.pou\Variables.var.locres">
+         <Id>44ae8ebf-93cc-4450-9ec5-8a4d885d13a1</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\GetNewPiece.pou\User.locres">
+         <Id>7c1d40ed-c26c-4bc9-9870-3b4916fb58f1</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CheckPieceInCavity.pou\Variables.var.locres">
+         <Id>cb477fc3-da04-4601-8194-05910915ac2b</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CheckPieceInCavity.pou\User.locres">
+         <Id>8f1fd84b-9f89-4463-9fc6-7c30f928ce71</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\MultiPlayerLoop.pou\Variables.var.locres">
+         <Id>61b50014-a636-4e84-8860-914259574bd6</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\MultiPlayerLoop.pou\User.locres">
+         <Id>22d7a088-62e3-4421-9935-f7c4b7b64a68</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CheckTouchingCavity.pou\Variables.var.locres">
+         <Id>7925057d-26aa-4ec7-ae7b-a4010f08cbb9</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CheckTouchingCavity.pou\User.locres">
+         <Id>6347b1ee-1d94-483c-8f31-004729cb6f01</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\RandomNumber.pou\Variables.var.locres">
+         <Id>9083a85f-1308-4515-baf2-917c979bd74d</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\RandomNumber.pou\User.locres">
+         <Id>2d9ed474-20db-4eed-bd0c-b867b3c4c303</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CheckAllPiecesInCavity.pou\Variables.var.locres">
+         <Id>9c2b8a11-2d82-4af2-94ff-2839147507e0</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CheckAllPiecesInCavity.pou\User.locres">
+         <Id>50e64070-31f8-4ef7-86ec-b7bc85b0b043</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\ResetBetweenGames.pou\Variables.var.locres">
+         <Id>a17daac7-054e-40e1-87f3-29f6d852a16e</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\ResetBetweenGames.pou\User.locres">
+         <Id>900b6099-7de8-4c4c-bec2-13cb2709577b</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\PieceScores.textlist\Definition.locres">
+         <Id>3b97b000-9d2a-4b27-b662-f80f0feaefc2</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\FormatName.pou\Variables.var.locres">
+         <Id>c8b43d9d-6643-4e5a-8fea-57aa253ef578</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\FormatName.pou\User.locres">
+         <Id>6afa0faa-2c20-4b97-b21e-84c8eb14c68b</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\UppercaseLetter.pou\Variables.var.locres">
+         <Id>9f5da8a1-9dfe-480e-b92f-03e7a664d532</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\UppercaseLetter.pou\User.locres">
+         <Id>9748c256-021d-47ac-b6a7-83e7aa589e14</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreGameReqs.hmi\Definition.hmipagedef.locres">
+         <Id>302a42a0-70c0-4856-9b62-0f5e02910671</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\NumPiecesInCavities.pou\Variables.var.locres">
+         <Id>818044e0-4c18-4df8-95e6-fa9eda7f5ea1</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\NumPiecesInCavities.pou\User.locres">
+         <Id>6812529c-90ba-499f-a1ce-a5915086fa74</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\HMIChoice.hmi\Definition.hmipagedef.locres">
+         <Id>afd621ab-e762-40c6-881d-f7d04074d84a</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\BlankPage.hmi\Definition.hmipagedef.locres">
+         <Id>2fc66ed5-e748-4d84-a525-0f756b0228e2</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage2.hmi\Definition.hmipagedef.locres">
+         <Id>abc10412-d3e7-44fd-8ae1-02e040c0cd6f</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage2.hmi\Definition.hmipagedef.locres">
+         <Id>a313883d-3bb4-4713-82c8-d78052711cde</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SetLights.pou\Variables.var.locres">
+         <Id>3d79137e-b0c0-4ead-8e0d-99a7e3a2cb7e</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SetLights.pou\User.locres">
+         <Id>1d113390-6fc3-457c-94d2-1b5c19aa0bf7</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SetAllLights.pou\Variables.var.locres">
+         <Id>51e59d83-d837-4010-8d5c-b70d2f54929b</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SetAllLights.pou\User.locres">
+         <Id>d95de265-f501-42d8-944a-0f9264ce6d0b</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CalcWinningPlayer.pou\Variables.var.locres">
+         <Id>44034050-ac68-4895-974c-93c2b07b7f5b</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\CalcWinningPlayer.pou\User.locres">
+         <Id>d11dbf95-5c8d-4b36-80f9-cc2f35249e11</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage2.hmi\Definition.hmipagedef.locres">
+         <Id>32e71f0e-de19-47e1-b6b6-f330ca423187</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\HMI Symbol.hmisymbol\Definition.locres">
+         <Id>f64d6178-64bd-4352-a388-00e272ebb05f</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreReqsPage2.hmi\Definition.hmipagedef.locres">
+         <Id>b8ea078d-5502-43dd-99f9-c246145b844d</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SetHMIPieceVars.pou\Variables.var.locres">
+         <Id>5a665b61-a30f-4a9b-8988-9ab947a23103</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\SetHMIPieceVars.pou\User.locres">
+         <Id>42a9f3e0-54d8-4eaa-bc50-1eb15a51615e</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Sounds.pou\Variables.var.locres">
+         <Id>63f16380-2ab0-4dad-9a9b-e79e0e357656</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Sounds.pou\User.locres">
+         <Id>b710e41b-9c92-42a5-a6c3-c926470c4c63</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\Variables.var.locres">
+         <Id>25fa79f8-8033-4e64-9e15-1e23d04f1117</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\User.locres">
+         <Id>a8af988e-978b-41e0-be9e-3bb222a04f4a</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\Variables.var.locres">
+         <Id>1c1faf23-786a-424f-af2e-c2cb659e3bfb</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\User.locres">
+         <Id>450321e3-001e-4fd9-862a-c1f6dbf2520d</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\LightRedEmptyCavities.pou\Variables.var.locres">
+         <Id>9faf0e9f-2fe4-40fd-a2f8-87ddeddde02d</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\LightRedEmptyCavities.pou\User.locres">
+         <Id>8df40bbb-98ef-4966-85bf-60341f98f323</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\Variables.var.locres">
+         <Id>e0b3af91-12a6-4e91-ada0-7f1bc92c19c9</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\User.locres">
+         <Id>b01f7a99-ab53-4b9a-bd4b-f38ef94cb40c</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server\Alarms.almwrk.locres">
+         <Id>0e8fd322-fd3b-48f4-b035-256978a98fda</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResources>
+   </ItemGroup>
+   <ItemGroup>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\ResourceProperties.iprop">
+         <Id>3cbe8eaf-40fc-4f5e-a572-3f404afd1781</Id>
+         <Visible>false</Visible>
+         <ParentIndex>8</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\HmiServerProperties.iprop">
+         <Id>c2add75c-39fa-407b-8eb1-fbbe3eb657e4</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1\aa81e964-2f69-43c2-a848-744f2f69c541.iprop">
+         <Id>54ed1e57-5e7d-4f0b-b9b1-9b13c4e307f1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_1\fc126654-276d-424f-8083-d4742e5023fd.iprop">
+         <Id>03f42a0e-ff76-40ae-a82d-6e3d52d88887</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN2\6510fc00-f8a5-4f2a-8eb2-92a31b36641b.iprop">
+         <Id>402302c3-4905-4c40-997e-c650a705eaed</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN3\ede2d443-a3df-483f-b9ce-1f24499f94d8.iprop">
+         <Id>55222131-8aa6-4217-b046-ca3768d18f6f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN4\04371584-2679-4dbd-b92f-5e3bf0f1f344.iprop">
+         <Id>4667336c-9f66-4f62-a3c1-1d136be6be6f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN1\70ef41e6-7437-42f6-9812-e85a13f1deef.iprop">
+         <Id>014f1688-9819-4dfb-bbe5-e43cc1a86252</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_AI4_U_0-10\376c3a90-5a0e-412e-b903-3a6f6f0c1460.iprop">
+         <Id>929e3ecf-dca1-4945-8b7d-b40cbc5e67a7</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_11\c044a014-53a6-4df6-a6f7-42299ba9606b.iprop">
+         <Id>e459c605-65c5-4047-9402-5f4f80f26466</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\b6ae1479-86d2-4027-a099-cf4e84deff86.iprop">
+         <Id>d3a1577e-b693-4be4-8688-598f7c359e88</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_4.iprop">
+         <Id>4cca3281-5990-441f-917c-5da5821d6a81</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_ax.iprop">
+         <Id>25002237-e651-439a-857e-d539a1e20dde</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_8.iprop">
+         <Id>e88874ff-9ba5-4c1c-bfca-c3ce0ad19888</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_9.iprop">
+         <Id>561f6ecf-222b-4065-b645-9ba5690358bb</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\DataList.dlr4var">
+         <Id>5dde2cbd-71b4-4c02-b2b1-814c9a77e154</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\DataList.dlr4hmi">
+         <Id>4b3195b6-153e-4ed4-a761-a7fb915d6779</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1\DataList.dlr4pd">
+         <Id>176bb4b1-6a50-4435-9575-6519e690ca16</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1\DataList.dlr2pl4pd">
+         <Id>b2ae68f2-6ac5-40c5-b75a-7649692e66c9</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_1\DataList.dlr4pd">
+         <Id>34ed0750-16a6-43ba-afec-980e1ed56085</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_1\DataList.dlr2pl4pd">
+         <Id>9e0839e8-9c7c-4183-b08d-79641558ad2a</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN2\DataList.dlr4pd">
+         <Id>fc27650e-6ee1-4bd2-9cfe-45adfadaa8ce</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN2\DataList.dlr2pl4pd">
+         <Id>4363a151-2e85-4961-ae81-5cef19f610e6</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN3\DataList.dlr4pd">
+         <Id>d5762323-c53e-45c7-9cf9-7a15dee1691f</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN3\DataList.dlr2pl4pd">
+         <Id>f93375ad-d1dc-41e0-a9cd-49b22e2aee13</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN4\DataList.dlr4pd">
+         <Id>2e886adf-f7eb-4955-b667-6051dc132d49</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN4\DataList.dlr2pl4pd">
+         <Id>fb13ffad-d02b-48ea-931c-53ad54f18451</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN1\DataList.dlr4pd">
+         <Id>3be6e453-0aef-48db-b860-ca1bdc96bf8d</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN1\DataList.dlr2pl4pd">
+         <Id>5a31a980-5e3a-4b41-9874-de99339e2ce9</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_AI4_U_0-10\DataList.dlr4pd">
+         <Id>77982d40-69f7-4a0c-ba91-a46e326d4753</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_AI4_U_0-10\DataList.dlr2pl4pd">
+         <Id>1a555a37-59bb-4340-9c4a-1b29afd004b3</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_11\DataList.dlr4pd">
+         <Id>169bbf74-6559-4659-9ae6-2428373b0d0e</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_11\DataList.dlr2pl4pd">
+         <Id>89da1779-8d02-429a-b1c2-e298f5c0e4bc</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PLCnext\DataList.dlr2pl">
+         <Id>94485537-1c38-4909-bb66-cc3099a45273</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\DataList.dlr4pd">
+         <Id>3db77db7-3856-4ea6-882e-0e52ac3b78f6</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\DataList.dlr2pl4pd">
+         <Id>9f4de772-ea0d-421f-a402-632e7dd55485</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\DataList.dlr4pd">
+         <Id>6f9b9a6b-6106-45e8-a00b-a8fa16fb4073</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\DataList.dlr2pl4pd">
+         <Id>066cb7b9-6404-4566-9982-0ad549488cfe</Id>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master\DataList.dlr4pd">
+         <Id>495474cf-a53e-4a81-b50e-88da50ea6452</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master\DataList.dlr2pl4pd">
+         <Id>233035b2-2fd5-49ed-8a45-47198633e301</Id>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster\DataList.dlr4pd">
+         <Id>c609441d-cb8d-4226-a8c4-c3498a6dde0c</Id>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster\DataList.dlr2pl4pd">
+         <Id>ce9da59d-6974-4b9c-ad64-821bd73976fa</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+   </ItemGroup>
+   <ItemGroup>
+      <IoConfigurationWorksheet Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\IOConfiguration.ioc">
+         <Id>45b09de3-1295-432f-aec0-9853287a2226</Id>
+         <ParentIndex>4</ParentIndex>
+      </IoConfigurationWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <ResourceSettings Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\ResourceSettings.set">
+         <Id>4886489d-19ad-4d27-9c0e-aee8efbca60f</Id>
+         <DisplayName>Task Configuration</DisplayName>
+         <FileLeadingLines></FileLeadingLines>
+         <ParentIndex>5</ParentIndex>
+      </ResourceSettings>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\Arp.Plc.Eclr.libmeta">
+         <Id>a62abfe1-ca23-40ba-97af-06e31ba4b1c2</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Plc.Eclr</Namespace>
+         <Name>Arp.Plc.Eclr</Name>
+         <ParentIndex>2</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\EIP_Master\Arp.Io.EthernetIP.libmeta">
+         <Id>a3606175-92f2-4b77-93b4-1f1d8d3bf2e8</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.EthernetIP</Namespace>
+         <Name>Arp.Io.EthernetIP</Name>
+         <ApplicationDomain></ApplicationDomain>
+         <ParentIndex>2</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Arp.Plc.Ehmi.libmeta">
+         <Id>070e3517-b7a1-4cf3-a673-c65f7ca94e00</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Plc.Ehmi</Namespace>
+         <Name>Arp.Plc.Ehmi</Name>
+         <ApplicationDomain></ApplicationDomain>
+         <ParentIndex>2</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\Arp.Io.Pn.libmeta">
+         <Id>4db91230-65bf-45ba-a7fa-ab65a0f251ab</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Pn</Namespace>
+         <Name>Arp.Io.Pn</Name>
+         <ApplicationDomain></ApplicationDomain>
+         <ParentIndex>8</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\Arp.Io.Axl.libmeta">
+         <Id>a936bb01-4b0f-4758-a02a-024bc39fc373</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Axl</Namespace>
+         <Name>Arp.Io.Axl</Name>
+         <ApplicationDomain></ApplicationDomain>
+         <ParentIndex>14</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master\Arp.Io.Ib.libmeta">
+         <Id>50cd60fc-6779-4b7d-aeb9-63f90d661c38</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Ib</Namespace>
+         <Name>Arp.Io.Ib</Name>
+         <ApplicationDomain></ApplicationDomain>
+         <ParentIndex>6</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server\Arp.Plc.Alarm.libmeta">
+         <Id>65abee96-e0ed-4494-8605-bab919276aa8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster\Arp.Io.Ib.libmeta">
+         <Id>fc943139-e9dd-49a8-88a6-9490127bf1bb</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </MetaLibrary>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\EclrComponent.compmeta">
+         <Id>7ccc24d1-7297-4723-94bd-0e83399a01fd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\EIP_Master\ControllerComponent.compmeta">
+         <Id>29120fb4-d305-4188-8ca6-71247bf75351</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\EhmiComponent.compmeta">
+         <Id>9a3f7d70-c926-4e9e-b89a-15bc2b30bc68</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\ControllerComponent.compmeta">
+         <Id>42a2ff46-8fb8-47ee-ae78-0998b9567171</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\ControllerComponent.compmeta">
+         <Id>5a3f7f79-f648-4283-a307-e7eaa287c1bd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>13</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master\ControllerComponent.compmeta">
+         <Id>946eefa4-d7a6-4abb-96bd-d6599bac661d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server\AlarmProgram.compmeta">
+         <Id>09c15037-f2ff-49c9-a33f-96ef9a3917dd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster\ControllerComponent.compmeta">
+         <Id>d0b99d3e-491b-4f0d-bdab-365103b7b4a6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </MetaComponent>
+   </ItemGroup>
+   <ItemGroup>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\RES_A5E06123EAB54BBA9CF2E24BA6E3CB16\Arp.Plc.Eclr.acf.config">
+         <Id>c1f8f1a8-b4d6-4dbf-a707-277a3aa59e6c</Id>
+         <Visible>False</Visible>
+         <InstantiatedComponentTypes>EclrComponent</InstantiatedComponentTypes>
+         <ParentIndex>0</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\EIP_Master\Arp.Io.EthernetIP.acf.config">
+         <Id>00ef48f7-a390-4da2-9ec6-edc6bf37abe9</Id>
+         <Visible>False</Visible>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
+         <ParentIndex>0</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Arp.Plc.Ehmi.acf.config">
+         <Id>7924ad2b-826a-413d-8b82-9407aef3fe6f</Id>
+         <Visible>False</Visible>
+         <InstantiatedComponentTypes>EhmiComponent</InstantiatedComponentTypes>
+         <ParentIndex>0</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\Arp.Io.Pn.acf.config">
+         <Id>0e4c06cd-1ed0-4bda-b1db-9389d2a9ae26</Id>
+         <Visible>False</Visible>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
+         <ParentIndex>6</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\Arp.Io.Axl.acf.config">
+         <Id>bf3fe3e9-62fc-4e29-aa39-2a7f55eb8ddf</Id>
+         <Visible>False</Visible>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
+         <ParentIndex>12</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master\Arp.Io.Ib.acf.config">
+         <Id>175a919a-fefa-4b3f-80cf-74b2d4fd348c</Id>
+         <Visible>False</Visible>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
+         <ParentIndex>4</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server\Arp.Plc.Alarm.acf.config">
+         <Id>115f6f7f-f2bf-4267-9c18-7943ac555db6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster\Arp.Io.Ib.acf.config">
+         <Id>5e507ff6-068e-47a2-8233-2835f53dfeea</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </AcfConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\Variables.hmivar">
+         <Id>d0156ea2-cf42-4f62-8896-7bbba5d91ea2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage.hmi\Variables.hmivar">
+         <Id>edb30cf9-0b58-43a4-b355-bcb4ab72bc00</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage.hmi\Variables.hmivar">
+         <Id>f4f3da87-6b99-4796-8fdc-a373096f8da4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage.hmi\Variables.hmivar">
+         <Id>e80fc156-604c-401a-8e83-bcd914a5a2d1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GameOver.hmi\Variables.hmivar">
+         <Id>c55e6fcc-82ed-410a-93f1-0c5e78232f6a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\NumPlayers.hmi\Variables.hmivar">
+         <Id>45c8e962-6812-4df9-977d-67795257322b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\Rules.hmi\Variables.hmivar">
+         <Id>82416edd-f005-4a0e-9b55-f226b6684b2b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreGameReqs.hmi\Variables.hmivar">
+         <Id>5873ca7e-977c-47cd-84d3-0c9d0bb258a3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\HMIChoice.hmi\Variables.hmivar">
+         <Id>4a123bcf-1193-4976-b1b2-25ca5639efa5</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\BlankPage.hmi\Variables.hmivar">
+         <Id>eb7989ec-277b-4630-91ed-316ee084f5fb</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage2.hmi\Variables.hmivar">
+         <Id>0377a0fd-b2ad-41a4-8897-14893bf10d93</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage2.hmi\Variables.hmivar">
+         <Id>a9ec447c-7a8a-40e7-9127-59065b0f2ebf</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage2.hmi\Variables.hmivar">
+         <Id>481db479-17ae-4aff-92ec-d5d79104bbc3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Logical Elements\HMI Symbol.hmisymbol\Variables.hmivar">
+         <Id>342b599a-51de-4013-93b7-25165333da53</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreReqsPage2.hmi\Variables.hmivar">
+         <Id>ee16022b-e476-4e61-8f61-72f20d47c183</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiNavigation Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\Navigation.hminav">
+         <Id>40a7a12c-61e7-4965-959d-6b6f743c4636</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </HmiNavigation>
+   </ItemGroup>
+   <ItemGroup>
+      <StationDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_4_PN_Master.station">
+         <Id>8b1f5dc5-fc91-4972-94cf-2ae23f46ecad</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_ax_AXLF_Master.station">
+         <Id>cb7a5179-3ffa-4485-997e-654b895762e4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>11</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_8_IB_Master.station">
+         <Id>3d751f9f-0f7d-4782-bb51-21482f4a0c9e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\IB_RemoteMaster\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_9_IB_RemoteMaster.station">
+         <Id>9bd3c6be-8919-4ce2-8f94-e4b6657e6b69</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </StationDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <HelpTemplateDocument Include="Logical Elements\HelpTemplate\collapse_toggle.png">
+         <Id>da8de809-502a-474a-b3d5-e2755766533c</Id>
+         <Visible>false</Visible>
+         <HelpDocumentType>image</HelpDocumentType>
+         <ParentIndex>0</ParentIndex>
+      </HelpTemplateDocument>
+      <HelpTemplateDocument Include="Logical Elements\HelpTemplate\image.png">
+         <Id>447f22bc-194c-447a-a4a2-b1a04d53dba5</Id>
+         <Visible>false</Visible>
+         <HelpDocumentType>image</HelpDocumentType>
+         <ParentIndex>1</ParentIndex>
+      </HelpTemplateDocument>
+      <HelpTemplateDocument Include="Logical Elements\HelpTemplate\Styles.css">
+         <Id>b71e162c-cbf5-4308-a108-de7ed9092842</Id>
+         <Visible>false</Visible>
+         <HelpDocumentType>stylesheet</HelpDocumentType>
+         <ParentIndex>2</ParentIndex>
+      </HelpTemplateDocument>
+      <HelpTemplateDocument Include="Logical Elements\HelpTemplate\TemplateFunction.htm">
+         <Id>0667e42b-8a1a-477d-91cc-41ecf687ae19</Id>
+         <Visible>false</Visible>
+         <HelpDocumentType>page</HelpDocumentType>
+         <ParentIndex>3</ParentIndex>
+      </HelpTemplateDocument>
+      <HelpTemplateDocument Include="Logical Elements\HelpTemplate\TemplateFunctionBlock.htm">
+         <Id>27b17be1-4ac5-4b16-b8f7-fc4784442b21</Id>
+         <Visible>false</Visible>
+         <HelpDocumentType>page</HelpDocumentType>
+         <ParentIndex>4</ParentIndex>
+      </HelpTemplateDocument>
+      <HelpTemplateDocument Include="Logical Elements\HelpTemplate\TemplateOverview.htm">
+         <Id>28476865-28fb-4b57-82fb-d6f5defbcb91</Id>
+         <Visible>false</Visible>
+         <HelpDocumentType>page</HelpDocumentType>
+         <ParentIndex>5</ParentIndex>
+      </HelpTemplateDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage.hmi">
+         <Id>2a0caa2a-8706-4c58-95c1-794bfa4d5904</Id>
+         <DisplayName>StartPage</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>3</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage.hmi">
+         <Id>46d64dcc-2dc7-4c4f-9fdd-dcc87268aa57</Id>
+         <DisplayName>GamePage</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>4</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage.hmi">
+         <Id>423beee1-5a03-4c26-b142-4a0817711822</Id>
+         <DisplayName>ResultsPage</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>5</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GameOver.hmi">
+         <Id>8116077e-d417-48d5-8929-4ea12e874a40</Id>
+         <DisplayName>GameOver</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>6</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\NumPlayers.hmi">
+         <Id>ab56540f-afd0-4e25-8307-f43b9f61e3e1</Id>
+         <DisplayName>NumPlayers</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>7</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\Rules.hmi">
+         <Id>d4115aa3-5c13-4a4b-9e8c-e03e62941103</Id>
+         <DisplayName>Rules</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>8</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreGameReqs.hmi">
+         <Id>e35ecd2a-f179-48d7-8e85-c71e9f577b24</Id>
+         <DisplayName>PreGameReqs</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>9</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\HMIChoice.hmi">
+         <Id>2bb31576-518b-41e9-b1ab-d7c74a8c4376</Id>
+         <DisplayName>HMIChoice</DisplayName>
+         <StartPage>True</StartPage>
+         <ParentIndex>10</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\BlankPage.hmi">
+         <Id>731d01e0-e201-4692-a21f-599c61a6bef2</Id>
+         <DisplayName>BlankPage</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>11</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage2.hmi">
+         <Id>5891e9e8-78d3-478e-bd33-133c4af4ec90</Id>
+         <DisplayName>StartPage2</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>12</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage2.hmi">
+         <Id>00b2ba1b-2d96-4971-a9f5-35ad1a4d2e8f</Id>
+         <DisplayName>GamePage2</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>13</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage2.hmi">
+         <Id>abc28a6c-0e05-4dc6-b90c-6fefbdd9f2a3</Id>
+         <DisplayName>ResultsPage2</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>14</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreReqsPage2.hmi">
+         <Id>c66fb18d-817f-468b-8c62-fd98e63ece32</Id>
+         <DisplayName>PreReqsPage2</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>15</ParentIndex>
+      </HmiPage>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage.hmi\Definition.hmipagedef">
+         <Id>c40fe17b-e884-4b94-8d82-5457faf407c3</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage.hmi\Definition.hmipagedef">
+         <Id>c622b3d9-90bb-4de7-9e11-92e5a8acb363</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage.hmi\Definition.hmipagedef">
+         <Id>89cebd59-ad5d-41d9-b976-f4fc7d6647be</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GameOver.hmi\Definition.hmipagedef">
+         <Id>eedd7b1a-abe7-4572-bf2d-821923a8be40</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\NumPlayers.hmi\Definition.hmipagedef">
+         <Id>e881bcde-7a83-4444-ac67-821fb0b86b3b</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\Rules.hmi\Definition.hmipagedef">
+         <Id>6c984822-ae9b-497c-9f92-911355fd1c39</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreGameReqs.hmi\Definition.hmipagedef">
+         <Id>0fe4d9d4-fd53-48d0-8769-02ba320f7584</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\HMIChoice.hmi\Definition.hmipagedef">
+         <Id>b4992adb-f77f-4912-b661-5897775f0019</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\BlankPage.hmi\Definition.hmipagedef">
+         <Id>48e41353-f05d-4eb6-a63c-f408f61c2c5b</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage2.hmi\Definition.hmipagedef">
+         <Id>618af07b-7cb5-42b4-8542-5016d699eb3d</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage2.hmi\Definition.hmipagedef">
+         <Id>b8143d07-1d8d-414a-8f4b-173787622d9e</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage2.hmi\Definition.hmipagedef">
+         <Id>dff1b0a9-9268-4232-ad4d-34b0cdf8a72c</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreReqsPage2.hmi\Definition.hmipagedef">
+         <Id>d657454e-c37f-4bf6-998f-ed81539ce9da</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage.hmi\Parameters.hmiparams">
+         <Id>ae4306e7-619c-467f-9c18-555a40b39f4c</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage.hmi\Parameters.hmiparams">
+         <Id>e516dd65-337b-4969-a054-cdf1415971ce</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage.hmi\Parameters.hmiparams">
+         <Id>617bf776-4bae-4c54-bcb9-ae7e38e1d96b</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GameOver.hmi\Parameters.hmiparams">
+         <Id>25731364-0b08-4f70-9ec2-02675685b2b3</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\NumPlayers.hmi\Parameters.hmiparams">
+         <Id>1fd4d2c7-f2aa-4336-8f2e-0a517fe44c76</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\Rules.hmi\Parameters.hmiparams">
+         <Id>bdee1221-18b8-43ba-86b6-4477398cf191</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreGameReqs.hmi\Parameters.hmiparams">
+         <Id>f084d0f8-b10d-42c1-8314-9a9f61be322e</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\HMIChoice.hmi\Parameters.hmiparams">
+         <Id>6c319b12-6eca-4008-97bf-86ca11039f85</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\BlankPage.hmi\Parameters.hmiparams">
+         <Id>51dc4057-92cf-4616-a72a-0813b9cbf7ae</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\StartPage2.hmi\Parameters.hmiparams">
+         <Id>34262f6b-41d4-454f-9304-29aec077061e</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\GamePage2.hmi\Parameters.hmiparams">
+         <Id>ddc0adbc-09b1-43ae-9172-a16a0cd65bcc</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\ResultsPage2.hmi\Parameters.hmiparams">
+         <Id>379a5eb4-f872-45fe-85ba-f3dd4dd060ad</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\Application\PreReqsPage2.hmi\Parameters.hmiparams">
+         <Id>400b9c85-6366-4927-9096-7d8284982287</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiConfig Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\HMI_Server\HmiConfiguration.xml">
+         <Id>2d9b6e8f-239a-4cac-8073-b2dc0836b2e6</Id>
+         <DisplayName>HMI Configuration</DisplayName>
+         <ParentIndex>3</ParentIndex>
+      </HmiConfig>
+   </ItemGroup>
+   <ItemGroup>
+      <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
+         <Id>c01b5b52-78fc-4b4f-8f5d-bf3fa640fec4</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Startup.pou\Code.st">
+         <Id>dc407a36-bcea-4119-8158-a325d6a2a2d5</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logic Analyzer\Document.lga">
+         <Id>965b882b-13df-42da-baee-97acf1a6e306</Id>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Watch Window\Document.ww">
+         <Id>fdb0f3dc-60f8-4aec-aa9c-96f5b1cd6b0e</Id>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\SoloPlayer.pou\Code.st">
+         <Id>b5a717c5-c52c-4145-be87-5b6ea6f38d1d</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\DealWithPiece.pou\Code.st">
+         <Id>9403ae76-62bc-43c7-933f-3bd2792f6db9</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\GetNewPiece.pou\Code.st">
+         <Id>43087698-25c5-4e89-8f77-770468a1dc0a</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\CheckPieceInCavity.pou\Code.st">
+         <Id>040242f1-196d-4406-baa2-406f28581f0f</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\MultiPlayerLoop.pou\Code.st">
+         <Id>a40f0178-3a99-449e-9aa2-f6324b09c4df</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\CheckTouchingCavity.pou\Code.st">
+         <Id>adb5cada-e84b-40f6-a82b-8fb6a9d75a41</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\RandomNumber.pou\Code.st">
+         <Id>7c1d9748-a759-48c7-b7e8-13198877276c</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\CheckAllPiecesInCavity.pou\Code.st">
+         <Id>836451bb-6393-4f72-92f5-85a606430342</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\ResetBetweenGames.pou\Code.st">
+         <Id>2bc2af12-9b68-4dd7-a44f-e4e4af066767</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\FormatName.pou\Code.st">
+         <Id>3b76642a-07be-40a1-b910-6040774d34e6</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\UppercaseLetter.pou\Code.st">
+         <Id>06d30a74-f379-449e-bc7c-02409110373a</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\NumPiecesInCavities.pou\Code.st">
+         <Id>12254b75-708c-41ee-9d4c-e1923753a944</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\SetLights.pou\Code.st">
+         <Id>2f79fc3a-0bf6-4cc4-9fbf-d57f784d061b</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\SetAllLights.pou\Code.st">
+         <Id>cda025c8-8067-498c-9f4f-0a21441df9b5</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\CalcWinningPlayer.pou\Code.st">
+         <Id>ded3995a-a601-48eb-98af-cd80b18fcc5c</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\SetHMIPieceVars.pou\Code.st">
+         <Id>d27b993e-ade0-4761-98ce-65312af952d6</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Sounds.pou\Code.st">
+         <Id>2e3ee7a8-8046-4ca0-892d-62357d7c36fe</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\SetHaptics.pou\Code.st">
+         <Id>8c27f388-2455-4e73-b6a5-8a6024573bf7</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\second.pou\Code.st">
+         <Id>b5662ba2-cada-4ce5-bb3d-d752f7777e67</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\LightRedEmptyCavities.pou\Code.st">
+         <Id>1401afa1-50fd-45e5-8b97-3c9d06145b3f</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\FindWinners.pou\Code.st">
+         <Id>4a5b4054-2cbf-4e64-b01d-0075f5dff9b8</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <TextList Include="Logical Elements\Pieces.textlist">
+         <Id>c5b5ea7a-6333-49df-ab16-e9f82a9a56f2</Id>
+         <DisplayName>Pieces</DisplayName>
+         <ParentIndex>3</ParentIndex>
+      </TextList>
+      <TextList Include="Logical Elements\Rules.textlist">
+         <Id>5b84c313-9121-44a1-b530-0faceec2be77</Id>
+         <DisplayName>Rules</DisplayName>
+         <ParentIndex>8</ParentIndex>
+      </TextList>
+      <TextList Include="Logical Elements\PieceScores.textlist">
+         <Id>3d77e363-1635-43eb-8cbc-aeb5a66ef022</Id>
+         <DisplayName>PieceScores</DisplayName>
+         <ParentIndex>19</ParentIndex>
+      </TextList>
+   </ItemGroup>
+   <ItemGroup>
+      <TextListDefinition Include="Logical Elements\Pieces.textlist\Definition">
+         <Id>752c5176-33c3-4be6-878c-9ad74957596d</Id>
+         <DisplayName>Text List</DisplayName>
+         <Extension>.textlistdef</Extension>
+         <ParentIndex>0</ParentIndex>
+      </TextListDefinition>
+      <TextListDefinition Include="Logical Elements\Rules.textlist\Definition">
+         <Id>7f07a5cd-81b3-40cb-a57a-66e0cfecf720</Id>
+         <DisplayName>Text List</DisplayName>
+         <Extension>.textlistdef</Extension>
+         <ParentIndex>0</ParentIndex>
+      </TextListDefinition>
+      <TextListDefinition Include="Logical Elements\PieceScores.textlist\Definition">
+         <Id>f0295267-e9e4-4fc2-8cf4-db411f0a8c82</Id>
+         <DisplayName>Text List</DisplayName>
+         <Extension>.textlistdef</Extension>
+         <ParentIndex>0</ParentIndex>
+      </TextListDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <Image Include="Logical Elements\single_player.png">
+         <Id>80d71d5b-7b63-4e03-b905-deea04ddf55b</Id>
+         <DisplayName>single_player</DisplayName>
+         <ImageWidth>976</ImageWidth>
+         <ImageHeight>976</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>5</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\multi_player.png">
+         <Id>8e42533d-95a8-428f-a1ad-7363ad4bd82d</Id>
+         <DisplayName>multi_player</DisplayName>
+         <ImageWidth>976</ImageWidth>
+         <ImageHeight>976</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>6</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\brutal_mode.png">
+         <Id>79509c4f-33a3-45ad-addf-e98120ff9697</Id>
+         <DisplayName>brutal_mode</DisplayName>
+         <ImageWidth>976</ImageWidth>
+         <ImageHeight>976</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>7</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\1b971aec-0ec5-4b81-bdd9-7b4c3a351e7b\0.png">
+         <Id>1b971aec-0ec5-4b81-bdd9-7b4c3a351e7b</Id>
+         <DisplayName>0</DisplayName>
+         <ImageWidth>336</ImageWidth>
+         <ImageHeight>332</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\b597214e-71cd-4dad-98dc-8b364a367a4e\1.png">
+         <Id>b597214e-71cd-4dad-98dc-8b364a367a4e</Id>
+         <DisplayName>1</DisplayName>
+         <ImageWidth>512</ImageWidth>
+         <ImageHeight>512</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\3f1c05c8-d1a5-4b06-9469-a4982216316f\2.png">
+         <Id>3f1c05c8-d1a5-4b06-9469-a4982216316f</Id>
+         <DisplayName>2</DisplayName>
+         <ImageWidth>210</ImageWidth>
+         <ImageHeight>241</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\9e426257-d63b-4e62-a37e-952ffe60a1b3\3.png">
+         <Id>9e426257-d63b-4e62-a37e-952ffe60a1b3</Id>
+         <DisplayName>3</DisplayName>
+         <ImageWidth>248</ImageWidth>
+         <ImageHeight>209</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\ad697fd2-3194-4823-ae66-569adaa02f68\4.png">
+         <Id>ad697fd2-3194-4823-ae66-569adaa02f68</Id>
+         <DisplayName>4</DisplayName>
+         <ImageWidth>383</ImageWidth>
+         <ImageHeight>151</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\5ca63501-a78c-4608-a0ca-f3da857ba76c\5.png">
+         <Id>5ca63501-a78c-4608-a0ca-f3da857ba76c</Id>
+         <DisplayName>5</DisplayName>
+         <ImageWidth>128</ImageWidth>
+         <ImageHeight>246</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\b0590a7f-5922-42ba-b054-9e9016190ecf\6.png">
+         <Id>b0590a7f-5922-42ba-b054-9e9016190ecf</Id>
+         <DisplayName>6</DisplayName>
+         <ImageWidth>323</ImageWidth>
+         <ImageHeight>335</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\3fb099ce-f51a-45da-b41f-1b0af93608d1\7.png">
+         <Id>3fb099ce-f51a-45da-b41f-1b0af93608d1</Id>
+         <DisplayName>7</DisplayName>
+         <ImageWidth>429</ImageWidth>
+         <ImageHeight>238</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\b48190d1-da10-49e7-a548-9b0f1624cbc8\8.png">
+         <Id>b48190d1-da10-49e7-a548-9b0f1624cbc8</Id>
+         <DisplayName>8</DisplayName>
+         <ImageWidth>370</ImageWidth>
+         <ImageHeight>498</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\a84c1eed-f5fb-4674-81a7-0d9596ba5c9d\9.png">
+         <Id>a84c1eed-f5fb-4674-81a7-0d9596ba5c9d</Id>
+         <DisplayName>9</DisplayName>
+         <ImageWidth>186</ImageWidth>
+         <ImageHeight>494</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\389b19cf-1863-4a90-a12a-e6676f10d4d3\10.png">
+         <Id>389b19cf-1863-4a90-a12a-e6676f10d4d3</Id>
+         <DisplayName>10</DisplayName>
+         <ImageWidth>500</ImageWidth>
+         <ImageHeight>500</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\apple.png">
+         <Id>56c75525-8f76-4ddd-aa37-a689e356099e</Id>
+         <DisplayName>apple</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>435</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>23</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\brush.png">
+         <Id>16958cec-3db5-4434-a38d-ab3cc4babbf3</Id>
+         <DisplayName>brush</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>476</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>24</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\feather.png">
+         <Id>91889821-67ff-4010-8a09-cc5f34d7bb9b</Id>
+         <DisplayName>feather</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>363</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>25</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\femur.png">
+         <Id>a495477a-382a-4281-807a-97ae2e58f717</Id>
+         <DisplayName>femur</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>383</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>26</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\flask.png">
+         <Id>4b5d393f-dfc9-416d-8f02-213593ce71f1</Id>
+         <DisplayName>flask</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>371</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>27</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\football.png">
+         <Id>3aac1f84-1997-4f44-87fc-81a210c7706a</Id>
+         <DisplayName>football</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>402</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>28</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\jersey.png">
+         <Id>3c374b5f-21f7-4933-b575-8187ecbc8cf6</Id>
+         <DisplayName>jersey</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>292</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>29</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\king.png">
+         <Id>1fde08c2-56d0-4627-9a13-2a34b170a5dd</Id>
+         <DisplayName>king</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>1138</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>30</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\ld.png">
+         <Id>23ccf607-1ffc-4ed0-a146-110005480b76</Id>
+         <DisplayName>ld</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>464</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>31</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\note.png">
+         <Id>73de2d9a-2589-44bc-831d-03e77f5b95df</Id>
+         <DisplayName>note</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>390</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>32</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\stick.png">
+         <Id>657350de-c49b-4b84-83c2-ee4a16d55f61</Id>
+         <DisplayName>stick</DisplayName>
+         <ImageWidth>400</ImageWidth>
+         <ImageHeight>479</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>33</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\opfalconnation.png">
+         <Id>926ddf88-4b8f-401e-9bcf-26697ded864d</Id>
+         <DisplayName>opfalconnation</DisplayName>
+         <ImageWidth>600</ImageWidth>
+         <ImageHeight>286</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>34</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\falconimg2.png">
+         <Id>a02ad798-b946-4f69-a28c-8ec4159fbb29</Id>
+         <DisplayName>falconimg2</DisplayName>
+         <ImageWidth>938</ImageWidth>
+         <ImageHeight>410</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>39</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\12cb8e6f-f707-438e-8a20-6b1fc8cd5964\falconimg.png">
+         <Id>12cb8e6f-f707-438e-8a20-6b1fc8cd5964</Id>
+         <DisplayName>falconimg</DisplayName>
+         <ImageWidth>410</ImageWidth>
+         <ImageHeight>938</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="RecycleBin\a6eed3ce-d225-4a42-bc62-17cd71bb1b1b\demo_controller.png">
+         <Id>a6eed3ce-d225-4a42-bc62-17cd71bb1b1b</Id>
+         <DisplayName>demo_controller</DisplayName>
+         <ImageWidth>976</ImageWidth>
+         <ImageHeight>976</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
+      <Image Include="Logical Elements\demo_controller.png">
+         <Id>515a7e06-4f00-4956-8c53-92fb122fc216</Id>
+         <DisplayName>demo_controller</DisplayName>
+         <ImageWidth>976</ImageWidth>
+         <ImageHeight>976</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>42</ParentIndex>
+      </Image>
+   </ItemGroup>
+   <ItemGroup>
+      <ImageSource Include="Logical Elements\single_player.png\Source">
+         <Id>1bc71fbd-fb12-45de-98f7-9ef83323b458</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\multi_player.png\Source">
+         <Id>9ee40efe-892d-4168-bcff-855e0da6b4bd</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\brutal_mode.png\Source">
+         <Id>56f027d7-0ff2-4227-875f-743f297ccdae</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\1b971aec-0ec5-4b81-bdd9-7b4c3a351e7b\0.png\Source">
+         <Id>e6dac5a5-5228-45c5-96ce-085f233f0273</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\b597214e-71cd-4dad-98dc-8b364a367a4e\1.png\Source">
+         <Id>4c3f9f71-5b50-4418-b0e7-2b6408fcac4a</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\3f1c05c8-d1a5-4b06-9469-a4982216316f\2.png\Source">
+         <Id>c38d1320-d48e-4e86-8e38-9fe0c1b6abc9</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\9e426257-d63b-4e62-a37e-952ffe60a1b3\3.png\Source">
+         <Id>0c443a58-b552-4527-be6a-56762d57323f</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\ad697fd2-3194-4823-ae66-569adaa02f68\4.png\Source">
+         <Id>c3a1fcee-21ec-4242-9bac-c34da3e34777</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\5ca63501-a78c-4608-a0ca-f3da857ba76c\5.png\Source">
+         <Id>8c39da59-b5cf-442d-8b63-27c4ff23dcc4</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\b0590a7f-5922-42ba-b054-9e9016190ecf\6.png\Source">
+         <Id>5cea1ec2-02d6-48f0-86b0-9814e73c3ba1</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\3fb099ce-f51a-45da-b41f-1b0af93608d1\7.png\Source">
+         <Id>02861353-b5b3-4c55-ba2c-1b80cc55b3d5</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\b48190d1-da10-49e7-a548-9b0f1624cbc8\8.png\Source">
+         <Id>b58e019a-6743-47a8-9489-ddf54fc0cbf1</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\a84c1eed-f5fb-4674-81a7-0d9596ba5c9d\9.png\Source">
+         <Id>c60b6e0e-3f8f-43e1-964d-01286ba43b2e</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\389b19cf-1863-4a90-a12a-e6676f10d4d3\10.png\Source">
+         <Id>d146c3a3-a5fe-4b0f-8b70-b79ec8e24e05</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\apple.png\Source">
+         <Id>ed9f6ce2-cc97-4425-b7b1-6667d426fdb8</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\brush.png\Source">
+         <Id>00673bd6-fbb1-41eb-bf7a-c1124a67fba7</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\feather.png\Source">
+         <Id>172e2910-2686-4f10-9472-a01856ee1991</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\femur.png\Source">
+         <Id>ce6104b8-92d2-4d30-9aa6-d20553d80ec4</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\flask.png\Source">
+         <Id>9e6863c0-05f4-44ec-8e46-2a720eee38a3</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\football.png\Source">
+         <Id>e4ed4f07-d4b1-47e1-afe0-c7327bdfe1b7</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\jersey.png\Source">
+         <Id>1c3ab52e-4f96-497b-b980-c734cb679283</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\king.png\Source">
+         <Id>62391289-ef8f-46a5-9686-3ca6eef0ffb5</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\ld.png\Source">
+         <Id>5e701f33-3e3a-49f7-96b1-2d8e606be3ac</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\note.png\Source">
+         <Id>741b45cf-b5e9-4edb-9dcd-b4c3ce9904fd</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\stick.png\Source">
+         <Id>f9435a22-3cc9-4fda-aab5-4cd4bf5a679b</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\opfalconnation.png\Source">
+         <Id>3fe1f360-b085-49f5-bc4e-a185586eba17</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\falconimg2.png\Source">
+         <Id>1b4317a8-ed55-49c6-84c9-3836a9745cb3</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\12cb8e6f-f707-438e-8a20-6b1fc8cd5964\falconimg.png\Source">
+         <Id>6225d416-ba12-4c3b-bd91-b3ea0fc9a372</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="RecycleBin\a6eed3ce-d225-4a42-bc62-17cd71bb1b1b\demo_controller.png\Source">
+         <Id>cfc6473a-15d8-415f-a941-a38e2a7065d5</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
+      <ImageSource Include="Logical Elements\demo_controller.png\Source">
+         <Id>3e9e2c51-14ef-4d75-8bb2-ea02d990d033</Id>
+         <ParentIndex>2</ParentIndex>
+      </ImageSource>
+   </ItemGroup>
+   <ItemGroup>
+      <ImageThumbnail Include="Logical Elements\single_player.png\Thumbnail">
+         <Id>894eab70-1d14-4a52-aef6-99c7ea33c93a</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\multi_player.png\Thumbnail">
+         <Id>7cbc65db-47d3-4a0a-9caf-ce07d88751ca</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\brutal_mode.png\Thumbnail">
+         <Id>bc1552f3-a8d0-409d-a72d-338d0f70bf4b</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\1b971aec-0ec5-4b81-bdd9-7b4c3a351e7b\0.png\Thumbnail">
+         <Id>441baea7-399d-4ce8-a332-1c87ff6593d6</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\b597214e-71cd-4dad-98dc-8b364a367a4e\1.png\Thumbnail">
+         <Id>100eca3b-8704-48e4-8fff-94b84aeb77d3</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\3f1c05c8-d1a5-4b06-9469-a4982216316f\2.png\Thumbnail">
+         <Id>110db9f5-108b-443f-bbeb-244b67ef321a</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\9e426257-d63b-4e62-a37e-952ffe60a1b3\3.png\Thumbnail">
+         <Id>884a4a0f-46d7-4318-8839-49a89945fc21</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\ad697fd2-3194-4823-ae66-569adaa02f68\4.png\Thumbnail">
+         <Id>0aded988-c1a0-4a95-b753-8982e2481502</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\5ca63501-a78c-4608-a0ca-f3da857ba76c\5.png\Thumbnail">
+         <Id>b87d477e-9687-496d-8dce-6ad1078f90c5</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\b0590a7f-5922-42ba-b054-9e9016190ecf\6.png\Thumbnail">
+         <Id>a05d6fab-d1b3-4322-a19a-3fda93790902</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\3fb099ce-f51a-45da-b41f-1b0af93608d1\7.png\Thumbnail">
+         <Id>45777118-f700-493e-ba44-8862c834424e</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\b48190d1-da10-49e7-a548-9b0f1624cbc8\8.png\Thumbnail">
+         <Id>8aa0b04a-079d-45bc-9f06-7e36c3e4db16</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\a84c1eed-f5fb-4674-81a7-0d9596ba5c9d\9.png\Thumbnail">
+         <Id>b1b4efdc-d3f7-4f29-9236-d570dce62083</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\389b19cf-1863-4a90-a12a-e6676f10d4d3\10.png\Thumbnail">
+         <Id>0ff305ec-e255-4b58-8a76-2c1cd109f397</Id>
+         <Revision>1</Revision>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\apple.png\Thumbnail">
+         <Id>04c18dac-70c5-4100-9743-56fded517abd</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\brush.png\Thumbnail">
+         <Id>02f29ea5-0eb1-4ae5-95a5-0499217b907f</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\feather.png\Thumbnail">
+         <Id>4bbb2b35-cdde-4ef7-8a7b-986e8041facf</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\femur.png\Thumbnail">
+         <Id>85950211-777c-45bd-9f64-3f5d9544b387</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\flask.png\Thumbnail">
+         <Id>efaa14f0-624b-499b-89f5-b2cea392514f</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\football.png\Thumbnail">
+         <Id>485e1879-088d-4a6a-8425-207237a66d62</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\jersey.png\Thumbnail">
+         <Id>03592fe5-04a8-4f8c-aedc-754cbd6d5e9f</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\king.png\Thumbnail">
+         <Id>ab5b8629-6986-4b6d-9e69-4dd73d1f404f</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\ld.png\Thumbnail">
+         <Id>24cf65fc-c1f3-4354-b354-07b843fa4f96</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\note.png\Thumbnail">
+         <Id>9baa55ed-4f77-4558-9896-6c8de06d930b</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\stick.png\Thumbnail">
+         <Id>46a1ea01-c63e-42ba-a20b-f4c9f3ccb5ea</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\opfalconnation.png\Thumbnail">
+         <Id>cb57ee63-529c-42b5-9e6c-d6da556c669d</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\falconimg2.png\Thumbnail">
+         <Id>68eb0c1b-26b4-445c-86ec-557e0fcecf48</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\12cb8e6f-f707-438e-8a20-6b1fc8cd5964\falconimg.png\Thumbnail">
+         <Id>bf1b5d97-0f41-4f24-910f-7de3e82575be</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="RecycleBin\a6eed3ce-d225-4a42-bc62-17cd71bb1b1b\demo_controller.png\Thumbnail">
+         <Id>016ee5a2-45ef-40db-8959-5b71ae7100d3</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\demo_controller.png\Thumbnail">
+         <Id>f9e0c674-48bb-4792-be97-166f4fd7d6fd</Id>
+         <ParentIndex>3</ParentIndex>
+      </ImageThumbnail>
+   </ItemGroup>
+   <ItemGroup>
+      <ImageList Include="Logical Elements\PieceImages.imagelist">
+         <Id>ed8e087a-b108-4043-a361-33e81f22552a</Id>
+         <DisplayName>PieceImages</DisplayName>
+         <ParentIndex>4</ParentIndex>
+      </ImageList>
+   </ItemGroup>
+   <ItemGroup>
+      <ImageListDefinition Include="Logical Elements\PieceImages.imagelist\Definition">
+         <Id>2cd64bfe-47fc-4053-a1ce-4315565f0d7e</Id>
+         <DisplayName>Image List</DisplayName>
+         <Extension>.imagelistdef</Extension>
+         <ParentIndex>0</ParentIndex>
+      </ImageListDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <RestoreDocument Include="RecycleBin\1b971aec-0ec5-4b81-bdd9-7b4c3a351e7b\1b971aec-0ec5-4b81-bdd9-7b4c3a351e7b">
+         <Id>f15e5c03-a9f0-4ff4-89cc-ede866b2e79e</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\b597214e-71cd-4dad-98dc-8b364a367a4e\b597214e-71cd-4dad-98dc-8b364a367a4e">
+         <Id>7fb52ff8-1171-4bda-bc2e-b71b2e416d84</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\3f1c05c8-d1a5-4b06-9469-a4982216316f\3f1c05c8-d1a5-4b06-9469-a4982216316f">
+         <Id>104f79e1-9540-43ce-bb9a-ba12a393a370</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\9e426257-d63b-4e62-a37e-952ffe60a1b3\9e426257-d63b-4e62-a37e-952ffe60a1b3">
+         <Id>a16d38fe-afc3-4cb1-98ac-864477a29f46</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\ad697fd2-3194-4823-ae66-569adaa02f68\ad697fd2-3194-4823-ae66-569adaa02f68">
+         <Id>cab0df38-572e-48f6-8c76-f86be1a4006e</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\5ca63501-a78c-4608-a0ca-f3da857ba76c\5ca63501-a78c-4608-a0ca-f3da857ba76c">
+         <Id>fd6ff41c-1426-44de-ad66-fa8204cb1909</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\b0590a7f-5922-42ba-b054-9e9016190ecf\b0590a7f-5922-42ba-b054-9e9016190ecf">
+         <Id>32c1d469-2f6f-4ff7-a30c-95eef1702060</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\3fb099ce-f51a-45da-b41f-1b0af93608d1\3fb099ce-f51a-45da-b41f-1b0af93608d1">
+         <Id>10db76e1-1239-49ba-ba85-90697dea5978</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\b48190d1-da10-49e7-a548-9b0f1624cbc8\b48190d1-da10-49e7-a548-9b0f1624cbc8">
+         <Id>9ca1ce86-5523-44b3-8744-da02cdf3e60a</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\a84c1eed-f5fb-4674-81a7-0d9596ba5c9d\a84c1eed-f5fb-4674-81a7-0d9596ba5c9d">
+         <Id>195bbab7-0527-4c38-93e9-102aeb70b9d6</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\389b19cf-1863-4a90-a12a-e6676f10d4d3\389b19cf-1863-4a90-a12a-e6676f10d4d3">
+         <Id>0bacd565-5260-461e-8a2f-2a24af7d4fea</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\12cb8e6f-f707-438e-8a20-6b1fc8cd5964\12cb8e6f-f707-438e-8a20-6b1fc8cd5964">
+         <Id>7c161faf-c75a-485f-84a4-07d2ac88d0e1</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309\65a6aaf2-3c51-4b3a-84bc-5b30af7ba309">
+         <Id>f7c72412-71db-463a-b0a6-b5753e5c51c3</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a\ed27b99a-7ec1-4592-b0a2-9f6df02ea35a">
+         <Id>c133f98e-3c9c-46e7-80a0-25f4a2e54153</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\a6eed3ce-d225-4a42-bc62-17cd71bb1b1b\a6eed3ce-d225-4a42-bc62-17cd71bb1b1b">
+         <Id>d06f6712-404f-48ba-96a7-934672dd2210</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\81b8630f-0612-4673-86b5-b52530dac910\81b8630f-0612-4673-86b5-b52530dac910">
+         <Id>a4d0cf37-c3b8-4b49-b0aa-bca63fce708d</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataTypeWorksheet Include="Logical Elements\OurLists.dt">
+         <Id>6ee1e7fb-b064-4d6f-805c-f322cf07acfb</Id>
+         <ParentIndex>17</ParentIndex>
+      </DataTypeWorksheet>
+      <DataTypeWorksheet Include="Logical Elements\GeneratedDataTypes.dt">
+         <Id>c70cf2f4-8113-4bae-b773-15b6f58b9d0d</Id>
+         <AutoGenerated>true</AutoGenerated>
+         <Visible>True</Visible>
+         <ParentIndex>44</ParentIndex>
+      </DataTypeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1\aa81e964-2f69-43c2-a848-744f2f69c541.ds">
+         <Id>d3eca880-3fd3-46e1-8426-c56f62bc099a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_1\fc126654-276d-424f-8083-d4742e5023fd.ds">
+         <Id>6695bf3b-0408-4a46-8153-0ab12ac38290</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN2\6510fc00-f8a5-4f2a-8eb2-92a31b36641b.ds">
+         <Id>28f9a785-9252-4108-bc4b-3a6ba537277b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN3\ede2d443-a3df-483f-b9ce-1f24499f94d8.ds">
+         <Id>97ccc263-e927-4409-8662-fd3c6e03edd9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN4\04371584-2679-4dbd-b92f-5e3bf0f1f344.ds">
+         <Id>78e57cd8-a959-42c4-9061-3f311fce5cec</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN1\70ef41e6-7437-42f6-9812-e85a13f1deef.ds">
+         <Id>06c93a4e-d5d8-4d86-ac85-30532809f67f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_AI4_U_0-10\376c3a90-5a0e-412e-b903-3a6f6f0c1460.ds">
+         <Id>8dd545ca-5977-4725-bde9-d52c7157cbae</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_11\c044a014-53a6-4df6-a6f7-42299ba9606b.ds">
+         <Id>9b15d4c7-0cea-4371-af87-49cd4b0c3f84</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\b6ae1479-86d2-4027-a099-cf4e84deff86.ds">
+         <Id>6ed52bd6-a158-45f8-bd4c-fd115d2067a9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1\aa81e964-2f69-43c2-a848-744f2f69c541.properties">
+         <Id>7f671629-970b-4d74-b370-65e6cdc464cd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_1\fc126654-276d-424f-8083-d4742e5023fd.properties">
+         <Id>dc98a408-2aef-434f-8d64-000340d355c3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN2\6510fc00-f8a5-4f2a-8eb2-92a31b36641b.properties">
+         <Id>83388c86-bd9f-41f4-827a-7b3a29f8d376</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN3\ede2d443-a3df-483f-b9ce-1f24499f94d8.properties">
+         <Id>8cf89134-709a-471c-bf09-ce64c57cf413</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN4\04371584-2679-4dbd-b92f-5e3bf0f1f344.properties">
+         <Id>f0ce612b-0a0d-4f6b-8bb8-f98462c3585a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN1\70ef41e6-7437-42f6-9812-e85a13f1deef.properties">
+         <Id>085a2951-3eb0-4520-b31b-658ba30f827b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_AI4_U_0-10\376c3a90-5a0e-412e-b903-3a6f6f0c1460.properties">
+         <Id>c9a0b614-7144-4ac6-a7b5-868c4d059484</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_11\c044a014-53a6-4df6-a6f7-42299ba9606b.properties">
+         <Id>71fb5049-3d8b-4733-a029-a57d4c309949</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\b6ae1479-86d2-4027-a099-cf4e84deff86.properties">
+         <Id>ba9dd0fa-6eab-4857-9fb0-1d10eca7e4b0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1\aa81e964-2f69-43c2-a848-744f2f69c541.par">
+         <Id>7e7802af-43a0-4862-b0e4-e028d54f7ee1</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_1\fc126654-276d-424f-8083-d4742e5023fd.par">
+         <Id>6b367964-532d-4e9d-915e-c53991844f4d</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN2\6510fc00-f8a5-4f2a-8eb2-92a31b36641b.par">
+         <Id>cb51bb82-d957-48be-9f46-2ccd86987fc4</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN3\ede2d443-a3df-483f-b9ce-1f24499f94d8.par">
+         <Id>06511a94-1739-496d-911f-0d1ec7d0e4ab</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN4\04371584-2679-4dbd-b92f-5e3bf0f1f344.par">
+         <Id>90385e0a-1c7e-487b-8ebf-a1d6af0efda1</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DO16_1_NPN1\70ef41e6-7437-42f6-9812-e85a13f1deef.par">
+         <Id>4946e4ac-0076-4271-a425-3da8f1b5e6e1</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_AI4_U_0-10\376c3a90-5a0e-412e-b903-3a6f6f0c1460.par">
+         <Id>11ce3b9f-3b56-4860-bee9-ef095b02371a</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\AXLF_Master\AXL_SE_DI16_11\c044a014-53a6-4df6-a6f7-42299ba9606b.par">
+         <Id>e77c5b40-90f3-4f13-82fe-d83b8a3370ff</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbol Include="Logical Elements\HMI Symbol.hmisymbol">
+         <Id>cb1f0bab-378d-44f9-a89d-a4befc3c2078</Id>
+         <DisplayName>HMI Symbol</DisplayName>
+         <DefinitionId>e70a6e60-c690-4ef8-b728-06d6dea7030c</DefinitionId>
+         <ParametersId>7b9d6864-d9f9-4ada-aa54-235a0b62fe9c</ParametersId>
+         <ParentIndex>38</ParentIndex>
+      </HmiSymbol>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbolDefinition Include="Logical Elements\HMI Symbol.hmisymbol\Definition">
+         <Id>e70a6e60-c690-4ef8-b728-06d6dea7030c</Id>
+         <DisplayName>HMI Symbol</DisplayName>
+         <Extension>.hmisymboldef</Extension>
+         <ParentIndex>0</ParentIndex>
+      </HmiSymbolDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbolParameters Include="Logical Elements\HMI Symbol.hmisymbol\Parameters">
+         <Id>7b9d6864-d9f9-4ada-aa54-235a0b62fe9c</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmisymbolparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiSymbolParameters>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbolThumbnail Include="Logical Elements\HMI Symbol.hmisymbol\Thumbnail">
+         <Id>f86cdcd9-153b-40d9-8776-12a68ea98547</Id>
+         <ParentIndex>2</ParentIndex>
+      </HmiSymbolThumbnail>
+   </ItemGroup>
+   <ItemGroup>
+      <CockpitDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\b6ae1479-86d2-4027-a099-cf4e84deff86.cockpit">
+         <Id>4af50b9c-2399-4713-8ecf-673b7893a87c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </CockpitDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ControllerStatisticDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\b6ae1479-86d2-4027-a099-cf4e84deff86.statistic">
+         <Id>c1cfb3de-5781-46e2-8edd-cd90d566de25</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </ControllerStatisticDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataList Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\DataList.dl">
+         <Id>2f15ed89-ee71-467b-862f-43210e0c8c2b</Id>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DataList>
+   </ItemGroup>
+   <ItemGroup>
+      <PlmConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PlmConfiguration.plmc">
+         <Id>1252ae71-cc13-4f77-a162-6ea1ec6b8992</Id>
+         <Visible>True</Visible>
+         <ParentIndex>2</ParentIndex>
+      </PlmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <DataLoggerDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PLCnext\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_1.datalogger">
+         <Id>5dd4f3e1-5ff3-41a5-b6bb-cf0e0b797cae</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataLoggerDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <EsmConfiguration Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PLCnext\EsmConfiguration.esmc">
+         <Id>5f7f307f-4308-4c91-93ef-2a2a8211faf1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </EsmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <PlcNextParameterDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PLCnext\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_1.plcnextpar">
+         <Id>80f5d640-bd0a-4e8f-b8f2-159fae762aa8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </PlcNextParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <AlarmWorksheet Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server\Alarms.almwrk">
+         <Id>160ed24b-1a61-40b5-82eb-169a53d79d48</Id>
+         <DisplayName>Alarms</DisplayName>
+         <Extension>.almwrk</Extension>
+         <ParentIndex>4</ParentIndex>
+      </AlarmWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaProgram Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\ALARM_Server\AlarmProgram.progmeta">
+         <Id>47a46110-e0b0-4b0f-9de5-0bf5b1b24471</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </MetaProgram>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUaPubSubDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\OPCUA\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_5.pubsub">
+         <Id>af925c13-c3a1-4f3c-9e7f-06c93cf66397</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </OpcUaPubSubDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUAClientConnectionsDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\OPCUA\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_5.opcuaclicon">
+         <Id>3be1d7fc-c403-4ada-ab95-2ae70f4a03d6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </OpcUAClientConnectionsDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUAServerSettingsDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\OPCUA\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_5.opcua">
+         <Id>73b4f975-2185-4688-94db-15fef4468ee8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </OpcUAServerSettingsDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUAClientModuleDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\OPCUA\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_5.opcuaclimod">
+         <Id>a734a890-c6f3-4e8f-bb54-748a3c41631a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </OpcUAClientModuleDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <InterfaceListDocument Include="Hardware\CFG_574A342A09514DF3860F7FB06CC4DFD4\PN_Master\b6ae1479-86d2-4027-a099-cf4e84deff86.L7_4.interfacelst">
+         <Id>fc93dc4a-27a9-49e7-8e18-1a0ce492e4f3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InterfaceListDocument>
+   </ItemGroup>
+</Project>

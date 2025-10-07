@@ -1,0 +1,24 @@
+{ CustomGroupDefinition('98413b8c-7620-488e-95de-32acc9af5322', '') }
+
+VAR_EXTERNAL
+    GameTimer : REAL { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('c482bcc9-6ab6-4800-ae9c-7fff673d8bb8')};
+    GameOver : BOOL { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('ccb3bb6d-60b6-482b-a522-fbef9bc340eb')};
+    GameMode : INT { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('a37c06f6-4d2e-431e-83ca-b97f7b076ab0')};
+    CurrentPieceNum : INT { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('97325d73-d4b6-489e-8af9-d3fe5361a034')};
+END_VAR
+
+VAR
+    DealWithPiece1 : DealWithPiece { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('db2bb07f-a688-4757-a6f5-d8c337b5307d')};
+END_VAR
+
+VAR_EXTERNAL
+    CurrentTargetPlayer : INT { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('3361b640-9604-460b-a075-9d579be2f404')};
+    CurrentTargetPlayerName : STRING { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('d8003353-539a-42bb-9188-8137fa636583')};
+    P1Name : STRING { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('9f340286-8f4b-413c-9363-1e1748905c53')};
+    P2Name : STRING { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('f072857b-0551-4cd0-a719-5c8fec2fb274')};
+    P3Name : STRING { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('bb466ada-720f-46d4-aa23-7ce6b40ff53b')};
+    P4Name : STRING { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('f3c0c87f-f28f-4689-9358-dc21724a8799')};
+    EndGameEarly : BOOL { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('26711786-8508-4a10-bfd3-028d58bd66bf')};
+    FinishedPieces : BOOL { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('418d553e-2bd3-4344-8147-e57f49eda5c3')};
+    GameAborted : BOOL { CustomGroupReference('98413b8c-7620-488e-95de-32acc9af5322') } {Id('f2b8903e-5da2-4560-9aae-fddfcf0d6767')};
+END_VAR

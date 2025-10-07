@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefaultWriteValue="0" DefaultText=" ">
+  <Entries StartValue="1" EndValue="1" WriteValue="1" Text="LD" />
+  <Entries StartValue="2" EndValue="2" WriteValue="2" Text="Chess King" />
+  <Entries StartValue="3" EndValue="3" WriteValue="3" Text="Feather" />
+  <Entries StartValue="4" EndValue="4" WriteValue="4" Text="Jersey" />
+  <Entries StartValue="5" EndValue="5" WriteValue="5" Text="Apple" />
+  <Entries StartValue="6" EndValue="6" WriteValue="6" Text="Football" />
+  <Entries StartValue="7" EndValue="7" WriteValue="7" Text="Paint Brush" />
+  <Entries StartValue="8" EndValue="8" WriteValue="8" Text="Music Note" />
+  <Entries StartValue="9" EndValue="9" WriteValue="9" Text="Flask" />
+  <Entries StartValue="10" EndValue="10" WriteValue="10" Text="Hockey Stick" />
+  <Entries StartValue="11" EndValue="11" WriteValue="11" Text="Bone" />
+</TextList>

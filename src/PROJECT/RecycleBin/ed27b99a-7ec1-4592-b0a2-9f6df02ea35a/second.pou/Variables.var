@@ -1,0 +1,5 @@
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+
+VAR_EXTERNAL
+    haptics_tongs : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4ffc791d-7e03-4102-99d5-1ca1bbc2638a')};
+END_VAR

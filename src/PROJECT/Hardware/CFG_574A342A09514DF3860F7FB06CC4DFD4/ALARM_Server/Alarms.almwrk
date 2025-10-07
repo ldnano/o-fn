@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerializedAlarmWorksheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Groups>
+      <Group Id="f020a26b-0afd-4420-a417-38ceb8a62e02" Name="Default" />
+   </Groups>
+</SerializedAlarmWorksheet>

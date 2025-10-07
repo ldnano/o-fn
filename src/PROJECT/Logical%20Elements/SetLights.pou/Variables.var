@@ -1,0 +1,60 @@
+{ CustomGroupDefinition('e544b975-bf4a-464e-9467-fc33a4026ae2', '') }
+
+VAR_INPUT
+    in_piece_num : INT { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('fc879df1-d931-4ca6-9fdb-31f3dea216f9')};
+    in_red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('24e2399c-74ba-4e17-b50d-56afbdd5b081')};
+    in_green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('7399f3f5-dc47-473b-a07f-6632a599b63d')};
+    in_blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('4aa27422-d7a7-4aed-a02f-57007f7feb97')};
+    in_white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('d31af788-41b0-4691-9eb6-d8b3b2b38874')};
+END_VAR
+
+VAR_EXTERNAL
+    cav1red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('278e3101-f7b1-44f6-a623-fcd9eed937fd')};
+    cav1green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('867a80bf-daf2-4284-a3f1-caa295f0e30f')};
+    cav1blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('806de0c1-bd47-405c-ba27-653b424cfa69')};
+    cav1white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('8b38cdcf-eefb-4417-a690-2ce5e3094c9c')};
+    cav2red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('f0365fcb-09b4-4459-935c-33055a25ba53')};
+    cav2green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('29613ca1-5147-48a8-be3b-0baeeb1569e8')};
+    cav2blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('0a9b3376-63b6-4ed2-a59a-34f32fbc8cfb')};
+    cav2white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('db9f94a9-6afb-4001-b7d2-20a24b386523')};
+    cav3red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('f0892659-f432-400c-9dfe-49a94b3c01ba')};
+    cav3green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('d0a26cd9-71e1-4cf9-88fb-837e00c1a04f')};
+    cav3blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('e71d375b-0ad4-40f2-9d3b-917e37ac5f00')};
+    cav3white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('3a9b67e1-04e3-4235-a88d-90ac4b68db30')};
+    cav4red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('2d595621-1b60-431d-a0df-d94e04649e9b')};
+    cav4green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('d3daa42d-a65b-458f-b30e-2ad580843b3b')};
+    cav4blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('abb19a77-3e2f-4a70-8856-889aa297499a')};
+    cav4white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('6da03124-2ef5-4718-82ff-04ab9139ecc1')};
+    cav5red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('c1c03521-1cf6-4f1a-99a4-ac5626064a18')};
+    cav5green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('2c5f5d37-c16e-4521-8329-45cefc1f06cf')};
+    cav5blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('21a819db-d7be-423f-95f7-021f0fff4834')};
+    cav5white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('20d3d4ce-e21e-4ab2-9aa4-bab36b7af1f5')};
+    cav6red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('39d647df-324b-4bc5-adbb-da9f401ae84b')};
+    cav6green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('bfeafa84-84a2-4ac3-8b8a-ca589b0d6836')};
+    cav6blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('68aa3f88-87a5-4f60-b4cf-a1f88ee7c935')};
+    cav6white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('d346acb7-31ed-46be-8e98-c06c420bfbab')};
+    cav7red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('11ab878b-b71e-4d07-bcb7-cd567ea80caf')};
+    cav7green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('082b4007-5c43-4970-a986-24d568f7ff36')};
+    cav7blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('27279fd5-c7e3-42e8-8464-c24abe6b80ab')};
+    cav7white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('aa09d469-861f-4a93-a1da-478809e2b7ee')};
+    cav8red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('21724847-99ab-4145-a6f1-5c8dd3dfc774')};
+    cav8green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('9be10aad-99ad-49a9-a0f5-7fe7b0ae1593')};
+    cav8blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('103826c6-c89a-4a74-8b3e-b609017d021f')};
+    cav8white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('f5bcdd21-60e8-42f9-8ac7-463020a9681c')};
+    cav9red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('93359c3d-ab01-4bd7-9178-460bdb5fa7fb')};
+    cav9green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('bcf9b60c-6cd7-44ba-aa44-c4375ecd0844')};
+    cav9blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('40417441-f404-40f2-8e06-d4009ecbc481')};
+    cav9white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('b3d1099f-1d92-440a-8115-48615ad7294a')};
+    cav10red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('6e897ea6-95e3-4906-87b5-954f7aac61fd')};
+    cav10green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('d3a1f943-1370-4c29-9288-66c1a07458b4')};
+    cav10blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('aeec01e7-6b51-40fe-8135-d52abe3f9aaa')};
+    cav10white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('9a44deb0-8033-449a-9101-9b461c4f3c41')};
+    cav11red : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('b550e9bb-47a5-4fd2-bb34-b8d177c53f11')};
+    cav11green : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('224bb565-610f-4d47-9f06-8af156bbfd59')};
+    cav11blue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('a3edd3dc-a8b0-435c-96aa-d5364787d483')};
+    cav11white : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('2a1e2c42-9f86-47f1-9174-48fc6c10ae94')};
+    boardred : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('ddc8f406-c994-45b2-8378-a131fe602cd3')};
+    boardgreen : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('74a67ce6-2cde-40ac-9dde-176b270384d5')};
+    boardblue : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('d8b28658-5224-4bf2-a483-64a80220718b')};
+    boardwhite : BOOL { CustomGroupReference('e544b975-bf4a-464e-9467-fc33a4026ae2') } {Id('5d8c13af-222f-4b9f-9625-890d4ef1a1a2')};
+END_VAR

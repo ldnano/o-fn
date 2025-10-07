@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="NumPlayers" BorderWidth="0">
+  <References>
+    <Documents>
+      <Document Id="d4115aa3-5c13-4a4b-9e8c-e03e62941103" NodeType="HmiPage" Name="Rules" />
+    </Documents>
+  </References>
+  <Layers>
+    <Layer>
+      <Objects>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button2" IsTabSelectable="true" TabOrder="0" NextId="5" LineColor="#00FFFFFF" LineWidth="1" Text="Back" FontFamily="Arial" FontSize="32" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>24</X>
+            <Y>699</Y>
+          </Origin>
+          <Location>
+            <X>24</X>
+            <Y>699</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A3" SourceType="Constant" SourceConstant="0">
+            <DestinationVariableInstance>
+              <Name>CurrentPage</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="PageBackAction" Gesture="Click" ID="A4" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>140</Width>
+            <Height>42.99999999999986</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button5" IsTabSelectable="true" TabOrder="0" NextId="3" LineColor="#FFCCD0D2" LineWidth="4" Text="4" FontFamily="Arial" FontSize="42" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>1036.0078125</X>
+            <Y>69.25</Y>
+          </Origin>
+          <Location>
+            <X>1036.0078125</X>
+            <Y>69.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="LineColor" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Name>NumPlayers</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>NumPlayers</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q1="http://www.w3.org/2001/XMLSchema" xsi:type="q1:double">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q2="http://www.w3.org/2001/XMLSchema" xsi:type="q2:double">2</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q3="http://www.w3.org/2001/XMLSchema" xsi:type="q3:double">3</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q4="http://www.w3.org/2001/XMLSchema" xsi:type="q4:double">4</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF4174F6" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Name>NumPlayers</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>NumPlayers</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q5="http://www.w3.org/2001/XMLSchema" xsi:type="q5:double">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q6="http://www.w3.org/2001/XMLSchema" xsi:type="q6:double">2</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q7="http://www.w3.org/2001/XMLSchema" xsi:type="q7:double">3</Threshold>
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q8="http://www.w3.org/2001/XMLSchema" xsi:type="q8:double">4</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFE4EAFB" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A2" SourceType="Constant" SourceConstant="4">
+            <DestinationVariableInstance>
+              <Name>NumPlayers</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>129</Width>
+            <Height>116</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button4" IsTabSelectable="true" TabOrder="0" NextId="3" LineColor="#FFCCD0D2" LineWidth="4" Text="3" FontFamily="Arial" FontSize="42" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>864.0078125</X>
+            <Y>69.25</Y>
+          </Origin>
+          <Location>
+            <X>864.0078125</X>
+            <Y>69.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="LineColor" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Name>NumPlayers</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>NumPlayers</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q9="http://www.w3.org/2001/XMLSchema" xsi:type="q9:double">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q10="http://www.w3.org/2001/XMLSchema" xsi:type="q10:double">2</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q11="http://www.w3.org/2001/XMLSchema" xsi:type="q11:double">3</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF4174F6" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q12="http://www.w3.org/2001/XMLSchema" xsi:type="q12:double">4</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Name>NumPlayers</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>NumPlayers</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q13="http://www.w3.org/2001/XMLSchema" xsi:type="q13:double">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q14="http://www.w3.org/2001/XMLSchema" xsi:type="q14:double">2</Threshold>
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q15="http://www.w3.org/2001/XMLSchema" xsi:type="q15:double">3</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFE4EAFB" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q16="http://www.w3.org/2001/XMLSchema" xsi:type="q16:double">4</Threshold>
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A2" SourceType="Constant" SourceConstant="3">
+            <DestinationVariableInstance>
+              <Name>NumPlayers</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>129</Width>
+            <Height>116</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Continue" FontFamily="Arial" FontSize="40" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>561.5078125</X>
+            <Y>618.25</Y>
+          </Origin>
+          <Location>
+            <X>561.5078125</X>
+            <Y>618.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A0" SourceType="Constant" SourceConstant="2">
+            <DestinationVariableInstance>
+              <Name>CurrentPage</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <Action xsi:type="LoadPageAction" Gesture="Click" ID="A1" Page="d4115aa3-5c13-4a4b-9e8c-e03e62941103" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>250.99999999999997</Width>
+            <Height>83</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text2" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Player names (3 letters):" FontFamily="Arial" FontSize="54" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>176.00781249999972</X>
+            <Y>246.25</Y>
+          </Origin>
+          <Location>
+            <X>176.00781249999972</X>
+            <Y>246.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>901.6093749999993</Width>
+            <Height>60</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text3" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Number of players:" FontFamily="Arial" FontSize="54" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>176.0078125000001</X>
+            <Y>97.25</Y>
+          </Origin>
+          <Location>
+            <X>176.0078125000001</X>
+            <Y>97.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>492.4218749999993</Width>
+            <Height>60</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button3" IsTabSelectable="true" TabOrder="0" NextId="3" LineColor="#FFCCD0D2" LineWidth="4" Text="2" FontFamily="Arial" FontSize="42" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" IsDefault="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>699.4296875000002</X>
+            <Y>69.25</Y>
+          </Origin>
+          <Location>
+            <X>699.4296875000002</X>
+            <Y>69.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="LineColor" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Name>NumPlayers</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>NumPlayers</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q17="http://www.w3.org/2001/XMLSchema" xsi:type="q17:double">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q18="http://www.w3.org/2001/XMLSchema" xsi:type="q18:double">2</Threshold>
+                <Value xsi:type="SolidFill" Color="#FF4174F6" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q19="http://www.w3.org/2001/XMLSchema" xsi:type="q19:double">3</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q20="http://www.w3.org/2001/XMLSchema" xsi:type="q20:double">4</Threshold>
+                <Value xsi:type="SolidFill" Color="#00FFFFFF" />
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
+            <VariableInstance>
+              <Name>NumPlayers</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>NumPlayers</ExpressionLine>
+            </Expression>
+            <ThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q21="http://www.w3.org/2001/XMLSchema" xsi:type="q21:double">1</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q22="http://www.w3.org/2001/XMLSchema" xsi:type="q22:double">2</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFE4EAFB" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q23="http://www.w3.org/2001/XMLSchema" xsi:type="q23:double">3</Threshold>
+                <Value xsi:type="SolidFill" Color="#FFFFFFFF" />
+              </FillDynamicThresholdData>
+              <FillDynamicThresholdData Blink="false">
+                <Threshold xmlns:q24="http://www.w3.org/2001/XMLSchema" xsi:type="q24:double">4</Threshold>
+              </FillDynamicThresholdData>
+            </ThresholdData>
+          </Dynamic>
+          <Action xsi:type="WriteValueAction" Gesture="Click" ID="A2" SourceType="Constant" SourceConstant="2">
+            <DestinationVariableInstance>
+              <Name>NumPlayers</Name>
+            </DestinationVariableInstance>
+          </Action>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>129</Width>
+            <Height>116</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="TextInput1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="ABC" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
+          <Origin>
+            <X>176.9999999999996</X>
+            <Y>455.25</Y>
+          </Origin>
+          <Location>
+            <X>176.9999999999996</X>
+            <Y>455.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Name>P1Name</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>P1Name</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>224.00000000000037</Width>
+            <Height>96</Height>
+          </Size>
+          <PasswordInputType>false</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Player 1:" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>175.99218750000017</X>
+            <Y>375.25</Y>
+          </Origin>
+          <Location>
+            <X>175.99218750000017</X>
+            <Y>375.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>225.01562499999986</Width>
+            <Height>60</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="TextInput2" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="ABC" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
+          <Origin>
+            <X>421.00000000000006</X>
+            <Y>455.25</Y>
+          </Origin>
+          <Location>
+            <X>421.00000000000006</X>
+            <Y>455.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Name>P2Name</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>P2Name</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>219.99999999999991</Width>
+            <Height>96</Height>
+          </Size>
+          <PasswordInputType>false</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text4" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Player 2:" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>420.99218750000017</X>
+            <Y>375.25</Y>
+          </Origin>
+          <Location>
+            <X>420.99218750000017</X>
+            <Y>375.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>221.01562499999986</Width>
+            <Height>60</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="TextInput3" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="ABC" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
+          <Origin>
+            <X>669</X>
+            <Y>455.25</Y>
+          </Origin>
+          <Location>
+            <X>669</X>
+            <Y>455.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Name>P3Name</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>P3Name</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Name>AtLeast3Players</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>AtLeast3Players</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>225</Width>
+            <Height>96</Height>
+          </Size>
+          <PasswordInputType>false</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text5" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Player 3:" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>673.7421875000002</X>
+            <Y>375.25</Y>
+          </Origin>
+          <Location>
+            <X>673.7421875000002</X>
+            <Y>375.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Name>AtLeast3Players</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>AtLeast3Players</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>220.26562499999983</Width>
+            <Height>60</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="TextInput4" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="ABC" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
+          <Origin>
+            <X>928</X>
+            <Y>455.25</Y>
+          </Origin>
+          <Location>
+            <X>928</X>
+            <Y>455.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Name>P4Name</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>P4Name</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Name>AtLeast4Players</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>AtLeast4Players</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>223.99999999999997</Width>
+            <Height>96</Height>
+          </Size>
+          <PasswordInputType>false</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text6" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Player 4:" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>927.7421875000002</X>
+            <Y>375.25</Y>
+          </Origin>
+          <Location>
+            <X>927.7421875000002</X>
+            <Y>375.25</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="False">
+            <VariableInstance>
+              <Name>AtLeast4Players</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>AtLeast4Players</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>225.26562499999983</Width>
+            <Height>60</Height>
+          </Size>
+        </HmiObject>
+      </Objects>
+    </Layer>
+  </Layers>
+  <Size>
+    <Width>1344</Width>
+    <Height>768</Height>
+  </Size>
+  <MarginColorString>#FFFFFFFF</MarginColorString>
+  <AvailableSecurityScope>Always</AvailableSecurityScope>
+  <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
+  <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
+  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+</HmiPage>

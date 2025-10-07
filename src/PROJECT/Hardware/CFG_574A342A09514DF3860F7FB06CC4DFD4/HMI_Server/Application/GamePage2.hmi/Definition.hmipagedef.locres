@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>119</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="Text2.Text">
+    <Values LanguageID="0" LocalValue="Piece name" />
+  </Resources>
+  <Resources ID="101" Name="Text5.Text">
+    <Values LanguageID="0" LocalValue="/" />
+  </Resources>
+  <Resources ID="102" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Piece name" />
+  </Resources>
+  <Resources ID="103" Name="Text9.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="107" Name="Text13.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="111" Name="Text8.Text">
+    <Values LanguageID="0" LocalValue="pieces" />
+  </Resources>
+  <Resources ID="112" Name="Text3.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="113" Name="Text4.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="114" Name="Text6.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="115" Name="Text7.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="116" Name="Text10.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="117" Name="Text11.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="118" Name="Button6.Text">
+    <Values LanguageID="0" LocalValue="DO NOT REMOVE ME" />
+  </Resources>
+</ResourcesDocument>

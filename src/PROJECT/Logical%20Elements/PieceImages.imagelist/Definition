@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefaultWriteValue="0" DefaultImage="00000000-0000-0000-0000-000000000000">
+  <Entries StartValue="1" EndValue="1" WriteValue="1" ImageId="23ccf607-1ffc-4ed0-a146-110005480b76" />
+  <Entries StartValue="2" EndValue="2" WriteValue="2" ImageId="1fde08c2-56d0-4627-9a13-2a34b170a5dd" />
+  <Entries StartValue="3" EndValue="3" WriteValue="3" ImageId="91889821-67ff-4010-8a09-cc5f34d7bb9b" />
+  <Entries StartValue="4" EndValue="4" WriteValue="4" ImageId="3c374b5f-21f7-4933-b575-8187ecbc8cf6" />
+  <Entries StartValue="5" EndValue="5" WriteValue="5" ImageId="56c75525-8f76-4ddd-aa37-a689e356099e" />
+  <Entries StartValue="6" EndValue="6" WriteValue="6" ImageId="3aac1f84-1997-4f44-87fc-81a210c7706a" />
+  <Entries StartValue="7" EndValue="7" WriteValue="7" ImageId="16958cec-3db5-4434-a38d-ab3cc4babbf3" />
+  <Entries StartValue="8" EndValue="8" WriteValue="8" ImageId="73de2d9a-2589-44bc-831d-03e77f5b95df" />
+  <Entries StartValue="9" EndValue="9" WriteValue="9" ImageId="4b5d393f-dfc9-416d-8f02-213593ce71f1" />
+  <Entries StartValue="10" EndValue="10" WriteValue="10" ImageId="657350de-c49b-4b84-83c2-ee4a16d55f61" />
+  <Entries StartValue="11" EndValue="11" WriteValue="11" ImageId="a495477a-382a-4281-807a-97ae2e58f717" />
+</ImageList>

@@ -1,0 +1,22 @@
+{ CustomGroupDefinition('75c831f2-2733-47ba-bb01-ab3bc48ff34a', '') }
+
+VAR_EXTERNAL
+    piece1_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('655b3587-99f3-472f-aadc-697023c3a06f')};
+END_VAR
+
+VAR
+    SetLights1 : SetLights { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('41367745-d4e0-4076-a322-1f3c3ada7b01')};
+END_VAR
+
+VAR_EXTERNAL
+    piece2_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('9e01de6e-0e5b-4033-95aa-05c0d4e5ad9a')};
+    piece3_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('25d946e2-e329-42ef-a62c-653105be6581')};
+    piece4_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('fad8c029-4f25-4026-ad45-08c874ba9a8a')};
+    piece5_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('9a50ed5e-ec3d-46cd-a1ec-b81186628f72')};
+    piece6_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('186fba12-569e-4286-ad58-5a14d0bbbfd9')};
+    piece7_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('a3616ee1-0d49-4cba-95d9-63332f189d43')};
+    piece8_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('a24d3b38-cacd-4ff4-82d1-ef9853a77ecc')};
+    piece9_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('7cb437ee-7713-49cc-aff2-009670a3af92')};
+    piece10_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('f8fc3fe4-956b-47fe-a69e-651608adb9a9')};
+    piece11_dist : BOOL { CustomGroupReference('75c831f2-2733-47ba-bb01-ab3bc48ff34a') } {Id('aee61536-6963-44ac-b7f5-e468b54ddd2d')};
+END_VAR

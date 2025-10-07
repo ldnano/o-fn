@@ -1,0 +1,23 @@
+{ CustomGroupDefinition('ec4648e4-210b-42ce-8885-642ab7e0b120', '') }
+
+VAR_INPUT
+    piece_num : INT { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('12c2c6fc-0e11-404d-bc44-2bf2371674df')};
+END_VAR
+
+VAR_OUTPUT
+    in_cavity : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('5e279150-7bef-47ed-bbd1-9a4b5f0628c2')};
+END_VAR
+
+VAR_EXTERNAL
+    piece1_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('92af9778-44ef-4d24-9b74-c84b6fec2fdc')};
+    piece2_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('444cd8df-a1a9-4c9f-a5e7-02cfb5bf5610')};
+    piece3_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('ee351ea3-e323-47e3-b59e-aa29c6326818')};
+    piece4_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('1a825a98-cbf3-437a-bec4-b66d443f6573')};
+    piece5_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('18637230-7851-4d44-b47c-28e126b41c72')};
+    piece6_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('22add093-478e-4fb6-b31d-1f51d128ba6b')};
+    piece7_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('de57c251-6b52-4042-936d-7a33fde86d86')};
+    piece8_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('09f4af85-359a-477f-97da-167ccf4a2787')};
+    piece9_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('2d186897-20b2-4207-bbba-3638c13db5aa')};
+    piece10_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('b9070efb-6cce-40ae-a64f-366135eee24a')};
+    piece11_dist : BOOL { CustomGroupReference('ec4648e4-210b-42ce-8885-642ab7e0b120') } {Id('fa0e116d-c2c9-4c70-bfa6-a3575801f842')};
+END_VAR

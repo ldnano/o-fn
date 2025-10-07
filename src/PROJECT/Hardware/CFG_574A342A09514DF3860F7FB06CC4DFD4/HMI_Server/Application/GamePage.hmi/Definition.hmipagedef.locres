@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>171</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="102" Name="Text3.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="107" Name="Button1.Text">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="109" Name="Button6.Text">
+    <Values LanguageID="0" LocalValue="DO NOT REMOVE ME" />
+  </Resources>
+  <Resources ID="111" Name="Text6.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="114" Name="Button2.Text">
+    <Values LanguageID="0" LocalValue="Simulate success" />
+  </Resources>
+  <Resources ID="115" Name="Button3.Text">
+    <Values LanguageID="0" LocalValue="Simulate failure" />
+  </Resources>
+  <Resources ID="118" Name="Text4.Text">
+    <Values LanguageID="0" LocalValue=", remove " />
+  </Resources>
+  <Resources ID="127" Name="Button4.Text">
+    <Values LanguageID="0" LocalValue="1" />
+  </Resources>
+  <Resources ID="128" Name="Button5.Text">
+    <Values LanguageID="0" LocalValue="1" />
+  </Resources>
+  <Resources ID="149" Name="Text17.Text">
+    <Values LanguageID="0" LocalValue="Sensor" />
+  </Resources>
+  <Resources ID="150" Name="Text18.Text">
+    <Values LanguageID="0" LocalValue="Cavity" />
+  </Resources>
+  <Resources ID="155" Name="Text19.Text">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="156" Name="Text20.Text">
+    <Values LanguageID="0" LocalValue="Piece:" />
+  </Resources>
+  <Resources ID="158" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="(Player " />
+  </Resources>
+  <Resources ID="159" Name="Text2.Text">
+    <Values LanguageID="0" LocalValue="(Player " />
+  </Resources>
+  <Resources ID="160" Name="Text5.Text">
+    <Values LanguageID="0" LocalValue=")" />
+  </Resources>
+  <Resources ID="163" Name="Text7.Text">
+    <Values LanguageID="0" LocalValue="Welcome" />
+  </Resources>
+  <Resources ID="164" Name="Text8.Text">
+    <Values LanguageID="0" LocalValue="seconds left on turn" />
+  </Resources>
+  <Resources ID="169" Name="Button8.Text">
+    <Values LanguageID="0" LocalValue="End Game" />
+  </Resources>
+  <Resources ID="170" Name="Text9.Text">
+    <Values LanguageID="0" LocalValue="Please place piece in cavity" />
+  </Resources>
+</ResourcesDocument>

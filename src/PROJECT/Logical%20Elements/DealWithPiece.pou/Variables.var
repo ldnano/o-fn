@@ -1,0 +1,67 @@
+{ CustomGroupDefinition('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d', '') }
+
+VAR_EXTERNAL
+    piece_in_initially : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('689885a3-47ef-4758-a953-c803af537983')};
+    piece_timer_enabled : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('762ed085-7ce6-47db-9a15-e3e1ce28ba84')};
+    piece_completed : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('aba76165-0ffb-4406-8740-a6b14303c58a')};
+    piece_timer : INT { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('e9c77050-d64a-49a5-b103-078065ddbec9')};
+    has_touched_cavity : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('6220ef56-6ce0-4db1-9850-6a5102efdae1')};
+END_VAR
+
+VAR
+    GetNewPiece1 : GetNewPiece { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('a02a0f05-4a5f-4b8c-b8e4-3dd015a33a3f')};
+    CheckPieceInCavity1 : CheckPieceInCavity { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('a8b32454-e914-4359-873c-3508e6bffdfe')};
+END_VAR
+
+VAR_EXTERNAL
+    CurrentPieceNum : INT { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('ebde5c15-1f1e-4ef4-8ac2-4fbd4b0fffc8')};
+    current_piece_in_cavity : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('3924167c-c3b2-42fd-9140-ba561d4befe3')};
+    red : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('20c08752-b291-44c5-95ed-a07bf17c8167')};
+    green : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('93e3b041-cc7b-49ee-aee5-8db96a4eb801')};
+    white : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('44236425-9241-46c8-a3de-ec86d054da60')};
+    blue : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('eb46a321-ddd9-4f84-9ebd-f595478a0999')};
+    touching_cavity_1 : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('144ee08f-670f-43e7-a863-5551e5e4607e')};
+END_VAR
+
+VAR
+    CheckTouchingCavity1 : CheckTouchingCavity { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('b881035c-0bd0-48d2-b4d2-5008f1872777')};
+END_VAR
+
+VAR_EXTERNAL
+    touching_cavity : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('a342c866-065b-4b89-b8ef-f5b9c5f9373f')};
+    start_of_game : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('8add3d65-9e5b-46f5-8e77-ab8da2896812')};
+END_VAR
+
+VAR
+    all_pieces_in_cavs : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('c13d3e60-8742-4665-9f79-cbd36ca98d90')};
+    CheckAllPiecesInCavity1 : CheckAllPiecesInCavity { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('7c267005-07b9-463b-85be-2a6de0d0e7d0')};
+END_VAR
+
+VAR_EXTERNAL
+    simulate_success : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('690a7886-5c02-42e3-bacd-4de60e777f5a')};
+    simulate_failure : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('b75215db-2a64-4ebb-8443-5645e84690f9')};
+    UsingSimulator : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('51e082aa-5d98-44d9-be59-86dbdb40661c')};
+    piece_complete_timer : INT { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('592817c9-6774-4669-ab08-8672803820dd')};
+    piece_complete_timer_enabled : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('6e3d6dfd-e780-4298-ac8c-8d3f867bf131')};
+    simulator_piece_in_cav : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('bb022b54-c108-41fc-9a5c-6b5174eaebcd')};
+    simulator_touched_sides : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('03d77673-ae0a-471e-a8d2-b0450c30512b')};
+END_VAR
+
+VAR
+    SetAllLights1 : SetAllLights { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('b4c7304f-d4d2-4e12-8d51-2530b8f8c885')};
+    SetAllLights2 : SetAllLights { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('15711c95-af6c-4eb8-ada9-944b1b175954')};
+    SetLights1 : SetLights { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('4c998564-602c-4812-a216-2a5c5d8f400c')};
+END_VAR
+
+VAR_EXTERNAL
+    GameTimer : REAL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('6ea85a56-7744-496c-b639-22cea47de822')};
+    TurnsMissed : INT { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('699dca38-a363-444e-a5c0-fbb6cd804c3c')};
+    player_exhausted_timer : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('8b5da831-fcdd-4bd0-a771-495a69706a5c')};
+    NumPlayers : INT { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('e983b260-d2b8-4ac1-8983-3a15d5491baf')};
+    CurrentPage : INT { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('ba936680-7f12-4e30-9322-0e324ecc5461')};
+    haptics_tongs : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('afc32c2e-70e9-42a2-a335-b92c06847ce1')};
+    FailSound : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('e440941a-2803-4603-84c7-eab1afea6af1')};
+    SuccessSound : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('eeaeeec6-6f91-4822-91fc-422c8987b0b3')};
+    has_played_hawk : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('8099dcb5-b922-4bf3-8074-1a8b83b86efa')};
+    HawkSound : BOOL { CustomGroupReference('6f98c32f-20dc-4726-b9cc-3d9d6ef07c8d') } {Id('ea23427e-65e8-4fb8-9fb7-e256c962ad42')};
+END_VAR

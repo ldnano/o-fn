@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>112</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="Default">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="101" Name="[1, 1]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="102" Name="[2, 2]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="103" Name="[3, 3]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="104" Name="[4, 4]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="105" Name="[5, 5]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="106" Name="[6, 6]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="107" Name="[7, 7]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="108" Name="[8, 8]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="109" Name="[9, 9]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="110" Name="[10, 10]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+  <Resources ID="111" Name="[11, 11]">
+    <Values LanguageID="0" LocalValue="$700" />
+  </Resources>
+</ResourcesDocument>

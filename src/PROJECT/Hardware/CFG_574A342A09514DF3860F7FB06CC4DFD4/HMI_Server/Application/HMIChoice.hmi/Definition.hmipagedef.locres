@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>102</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="Button1.Text">
+    <Values LanguageID="0" LocalValue="HMI 1 (left)" />
+  </Resources>
+  <Resources ID="101" Name="Button2.Text">
+    <Values LanguageID="0" LocalValue="HMI 2 (right)" />
+  </Resources>
+</ResourcesDocument>

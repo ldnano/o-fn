@@ -1,0 +1,173 @@
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+
+VAR_EXTERNAL
+    NumPlayers : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d23227d6-713b-43b2-a0fe-0b7bdc42d66d')};
+    DifficultyLevel : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b895f86d-5674-4d18-a795-bad6ec9e1be7')};
+    CurrentPage : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('ee5da837-cd22-4587-a3af-00ce26013544')};
+    GameTimer : REAL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d2867975-688d-4d50-8456-12513630a1a4')};
+    NewPiece : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('81f81ca5-9a2a-4739-b390-d6c5d4df404b')};
+    CurrentPieceNum : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('bb7b3b8c-04e3-42a9-ab90-7d6065cac6b1')};
+    HMI_CONTROL : HMI_CONTROL_TYPE { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2bc21af3-f165-4aec-84ca-fb8b89a985c7')};
+    FinishedPieces : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('82daad0f-22e3-4b0e-9710-5e7cf947252d')};
+    GameOver : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e0e17393-8347-4bb9-8796-d28faaa3afa0')};
+    GameMode : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c80cf30b-7b6f-43c7-9287-49c45f2d12a7')};
+    P1Name : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('bffbc617-bf24-428e-87b1-0db75e40924f')};
+    P2Name : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c2ce7932-b32b-49ad-88a1-deb46fa280bf')};
+    P3Name : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e50921ce-27b0-41a1-91c7-96111f910038')};
+    P4Name : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6bff2b8b-1d22-4274-a0e4-a7002372ced7')};
+END_VAR
+
+VAR
+    SoloPlayer1 : SoloPlayer { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f845f1b5-ea5d-43bb-a0da-a813876900fb')};
+END_VAR
+
+VAR_EXTERNAL
+    piece_in_initially : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2c41cefe-886e-40d2-92c4-d962a5af8f09')};
+    piece_timer_enabled : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('8bef2525-8cca-453a-8a53-a13871dad924')};
+    piece_completed : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('617b94ea-d828-4f59-9250-96066cf70ab1')};
+    piece_timer : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e7c29ffa-76e6-4f6f-a062-10aabe77e775')};
+    has_touched_cavity : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('80d46f89-883b-449b-94a5-a3d403fce2ef')};
+END_VAR
+
+VAR
+    MultiPlayer1 : MultiPlayerLoop { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b18d01cd-71a1-47ab-ad7f-a5143d1543cd')};
+END_VAR
+
+VAR_EXTERNAL
+    current_rand : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7a9bc68f-1fc3-4dbc-a3a1-9f4a8f32c3ef')};
+    randomtest : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d5fe67b6-2050-47e7-adb3-42dedc74001a')};
+END_VAR
+
+VAR
+    RandomNumber1 : RandomNumber { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('478ba936-6dc2-4281-9524-b23b85971798')};
+END_VAR
+
+VAR_EXTERNAL
+    list_of_pieces : pieceArray { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e3d44c92-f6ee-4585-8ca8-46ec3b0a9e87')};
+    temp1 : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('102d5208-95b7-4e8b-88da-b3ba5aa5f941')};
+    temp2 : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('82596eae-e41f-4e3c-abc2-b792dbbb785e')};
+    temp3 : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3f0b0460-0a5a-443d-ba7b-0e9ac4bbf667')};
+    blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3116f1d8-f837-49b1-8cc8-f7fabf7a75c3')};
+    AtLeast3Players : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('5bbce1d2-be00-46c8-adb8-e419a66329fe')};
+    AtLeast4Players : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6e543d65-e6ec-4b57-aff7-59b46df5b0fc')};
+    CurrentTargetPlayer : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('59200632-ba24-4f72-a39a-34b29d2e836d')};
+    CurrentTargetPlayerName : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('ac544b31-656f-49a0-887b-94ed12af6ec5')};
+    simulate_success : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f1449a7d-1b39-462d-9751-a615a378f02f')};
+    simulate_failure : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('879dd724-e93c-42f5-9d32-aec3fc47641e')};
+END_VAR
+
+VAR
+    ResetBetweenGames1 : ResetBetweenGames { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3f3aee23-6411-43bd-9b05-35578bf5b98a')};
+END_VAR
+
+VAR_EXTERNAL
+    UsingSImulator : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6d5785fb-cade-4c9e-b9f2-66a653c89e21')};
+    attempts_on_piece : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('133eae00-3f55-411d-8527-f86b4c6b5932')};
+    player_scores : playerScores { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c45a9192-b8d4-4960-9dab-7994ec2a6c38')};
+END_VAR
+
+VAR
+    MultiPlayerLoop1 : MultiPlayerLoop { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('91adf3e3-96fa-470a-bab8-6442f6fdd3bf')};
+    FormatName1 : FormatName { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('73df4e5b-53a6-4751-82fd-2f387b430439')};
+END_VAR
+
+VAR_EXTERNAL
+    all_pieces_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('94b0097b-7c76-489f-9c07-7eefa32d9cd5')};
+END_VAR
+
+VAR
+    CheckAllPiecesInCavity1 : CheckAllPiecesInCavity { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('34837d0e-f998-4e6c-9d29-9d29973a2498')};
+    NumPiecesInCavities1 : NumPiecesInCavities { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('48b71277-0e1e-453e-b43a-440c2cbb1c0f')};
+END_VAR
+
+VAR_EXTERNAL
+    num_pieces_in_cavs : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d187c568-6bd3-452c-89df-473107e76b74')};
+    num_pieces_not_in_cav : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3291eb64-10a3-4d8f-952e-1032b4c5bd6f')};
+    GameStarted : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7812dfc2-f1ef-4bba-9d75-bb813025e36a')};
+    cav1red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('ce3843a0-7cab-4568-9b18-9de2a49b6d86')};
+    cav1green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('656b3c85-5a46-439c-a356-765738978612')};
+    cav1blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e5845b47-f739-4fc7-afa3-b48407c6ae63')};
+    cav1white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7ec14863-6a69-40a1-8ef4-513940d91731')};
+    cav2red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('99d170c5-4523-456e-be5c-3cf6ddd19986')};
+    cav2green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('9de4983b-65e3-4b40-bf51-feb6a60ba300')};
+    cav2blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('ada939f1-9f68-400f-a722-74e23a95736f')};
+    cav2white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('da68b1d8-90e6-4b22-a01e-a793f9eafef4')};
+    cav3red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('33887da4-e519-4392-bf59-cf3cd058fe6d')};
+    cav3green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c10d08b8-d3fa-48f7-9b06-7c50737e2414')};
+    cav3blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3869b7ba-391e-434f-8c46-6e9ff6602327')};
+    cav3white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4967f474-c375-46b4-a55c-7ef7020a47b3')};
+    cav4red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a33bbb25-94d9-4100-8bf5-e4e964f6976f')};
+    cav4green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d1ae5a87-74a2-4f6a-a9cd-6d8aa91985e1')};
+    cav4blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('5b2e83c6-43ac-4215-a01e-ad1cfa410d4e')};
+    cav4white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('689b3269-b56a-4078-b57e-cbbb0e752b98')};
+    cav5red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('120ee6ed-2c4d-41f6-aa79-ec2b80f19931')};
+    cav5green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3f82ecf1-5aba-454d-9eb2-12893bb303f2')};
+    cav5blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a658fb74-6f57-4c23-a2af-0a2946283862')};
+    cav5white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d47862fa-8741-4bc7-b624-068215ac3f70')};
+    cav6red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('37475202-5f69-4bf6-b44b-d98e1e8777d7')};
+    cav6green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('72e78ffb-6485-4e5d-8c6c-9bbf219fa815')};
+    cav6blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3bf6a1a1-0a9a-4653-89be-97444fed122e')};
+    cav6white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3e47c344-2136-4482-836a-65caf54ce1f4')};
+    cav7red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('af1bcd1b-3530-468b-b363-a49ae0237b89')};
+    cav7green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f1338a43-168e-4e72-8fa9-ead4dde8eaf0')};
+    cav7blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('228934b8-5219-4c37-a987-f01bb0bbc15f')};
+    cav7white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('42c3ee41-c985-4902-a817-28104d72228e')};
+    cav8red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a4d9247a-7e7f-4ea2-9fef-e831e335c8b7')};
+    cav8green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('89943f78-05e3-4a1d-a3f0-a7d098b8b0f3')};
+    cav8blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1dea4421-8af4-442e-becd-453994ad429a')};
+    cav8white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cda63f84-2f15-4fd7-b891-053ae99469d0')};
+    cav9red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d711ab81-643e-459f-a938-9f1126c6b229')};
+    cav9green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3c73a3e3-6426-4773-94bc-a8c59c4ef002')};
+    cav9blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('88944c5f-b141-481f-85f8-c40b7c2951e4')};
+    cav9white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6608300c-8262-4f6c-ad3b-92a937e08c14')};
+    cav10red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('06f0218f-55d2-4b3c-9d11-97d304dfb61c')};
+    cav10green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('46f48e7c-e89c-464c-ab25-1eb7103b8016')};
+    cav10blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c02fd1fe-f0a7-4053-b9f9-fa70112a801b')};
+    cav10white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e0af2f9c-1dc4-4fca-b22d-639978dc07f1')};
+    cav11red : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e176d9ce-3423-44ca-9d70-037a39f5f9d8')};
+    cav11green : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('437bd682-d16f-4a55-9d06-181deada294e')};
+    cav11blue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('efe9dbc8-fc59-470a-a0d4-8c23335e9538')};
+    cav11white : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('15829ea5-28a2-43af-ba64-cd35c82a8f12')};
+    boardred : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1d716c99-1b8d-46c8-9f76-bbc79a8db244')};
+    boardgreen : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f24fd724-8368-4824-887a-a2a61767fb95')};
+    boardblue : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c85ca1c1-f66e-4ae8-af7a-f9f8e090d330')};
+    boardwhite : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4f2721e5-dbc1-4be4-a3c4-530193785404')};
+    WinningPlayerNum : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e4b1fef4-c433-487a-a2dc-600df2948f8f')};
+    WinningPlayerName : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a0868679-6bb4-4206-bc28-23d15e23f83b')};
+    soundtest1 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('91eadde3-833f-49e9-a4fb-375465443dd2')};
+    deck_size : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('64f35fd0-aa95-41e9-a6cb-273cc949abed')};
+    p1_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('09c1440a-7108-443d-b649-f0d064aec86f')};
+    p2_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('949375ae-0850-4f09-aef8-97efec995e32')};
+    p3_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('071a680a-e849-420a-bfbb-698ef2789ea2')};
+    p4_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('bf00442e-6d4f-429a-9bec-bbfde51a909f')};
+    p5_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('698a644a-8586-4f9a-8e43-223e4430b531')};
+    p6_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('9005f46f-d90d-419a-9cf6-7a41c7502901')};
+    p7_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('25f9ebe0-8fbe-4f49-bc5f-dabb61d474e5')};
+    p8_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6880233d-6dbc-4ada-93ca-96654bbd6a23')};
+    p9_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('8dc7875b-c48a-4943-a309-1072e30473f1')};
+    p10_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b5019392-7ad3-4568-88e3-b0a89516f165')};
+    p11_in : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('18b6fed1-ab95-410b-bdff-451abaaea51f')};
+END_VAR
+
+VAR
+    SetHMIPieceVars1 : SetHMIPieceVars { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e137637c-c5e4-48c8-ba5e-62cedab9d11b')};
+END_VAR
+
+VAR_EXTERNAL
+    TurnsMissed : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7008d0e4-4ecf-4a8c-aba0-aad6e3bb2ed0')};
+    haptics_tongs : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('213ed953-9b00-4236-90b0-9c5ddef3c505')};
+    demo_rand_index : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('87005e30-e4c9-4d3f-9ec0-dba41ace6eff')};
+END_VAR
+
+VAR
+    LightRedEmptyCavities1 : LightRedEmptyCavities { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('eea12656-6b63-4a16-86fc-cf24902cf0c2')};
+    SetLights1 : SetLights { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('30f24f7d-b209-4b86-ab37-c62265b30df0')};
+END_VAR
+
+VAR_EXTERNAL
+    has_reset_vars_on_start : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('da055b1a-01d2-44cc-ac9e-258df6fd4f7d')};
+    EndGameEarly : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('0e958339-0d3e-45e8-a2bb-33a3ffb650ba')};
+    winners : playerScores { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('90ad7e62-de09-45c9-9dbf-7224b89b45a0')};
+    Intro : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('54ac3108-5bce-4ab0-8acf-f800eed596b3')};
+    IntroSound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('0cb167cd-3c12-4c9b-8dce-244ea3b0f5ca')};
+END_VAR

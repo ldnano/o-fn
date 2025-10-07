@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>115</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Operation: Falcon Nation" />
+  </Resources>
+  <Resources ID="101" Name="Text2.Text">
+    <Values LanguageID="0" LocalValue="Select a game mode" />
+  </Resources>
+  <Resources ID="102" Name="Button1.Text">
+    <Values LanguageID="0" LocalValue="Single Player" />
+  </Resources>
+  <Resources ID="111" Name="Button2.Text">
+    <Values LanguageID="0" LocalValue="Multi Player" />
+  </Resources>
+  <Resources ID="114" Name="Button3.Text">
+    <Values LanguageID="0" LocalValue="Demo Game" />
+  </Resources>
+</ResourcesDocument>

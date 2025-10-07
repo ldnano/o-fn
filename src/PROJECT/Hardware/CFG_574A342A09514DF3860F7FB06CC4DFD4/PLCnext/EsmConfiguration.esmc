@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EsmConfiguration id="8540669e-d5e1-45be-bc89-293df78899ca" version="2" importRevision="1">
+	<Esms>
+		<Esm id="8a0a5289-e717-4713-9c77-37ae8b272842" name="ESM1" cpuAffinity="1" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
+		<Esm id="49f8f7fd-ebfa-4413-887f-e0c8a2927672" name="ESM2" cpuAffinity="2" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
+	</Esms>
+	<Tasks>
+		<Task id="4c3adfc9-b7b2-4c83-8082-d8823f9fce4b" name="Cyclic100" taskType="CyclicTask" priority="0" intervalTime="100000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="8a0a5289-e717-4713-9c77-37ae8b272842" readonly="False">
+			<ProgramInstances>
+				<ProgramInstance id="2c33aa64-f709-48f8-a2ef-468bc0618096" name="MainInstance" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+				<ProgramInstance id="ff465f3b-4f08-4470-90c1-5929ed9a3e46" name="SoundsInstance" programType="Sounds" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+			</ProgramInstances>
+		</Task>
+		<Task id="9a8df43a-9558-499e-bf31-aed83de90785" name="StartupTask" taskType="EventTask" eventType="PlcNextEvent" eventName="Arp.Plc.Esm.OnWarmStart" eventSource="" priority="0" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="8a0a5289-e717-4713-9c77-37ae8b272842" readonly="False">
+			<ProgramInstances>
+				<ProgramInstance id="8d18e68e-9a1c-4c04-94c4-f5feb9180b23" name="StartupInstance" programType="Startup" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+			</ProgramInstances>
+		</Task>
+	</Tasks>
+</EsmConfiguration>

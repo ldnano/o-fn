@@ -1,0 +1,13 @@
+{ CustomGroupDefinition('c549cd0d-fe27-4ac7-be63-2bb271094241', '') }
+
+VAR
+    DealWithPiece1 : DealWithPiece { CustomGroupReference('c549cd0d-fe27-4ac7-be63-2bb271094241') } {Id('6a312561-a979-48f3-bbc9-c5229967dea3')};
+END_VAR
+
+VAR_EXTERNAL
+    GameTimer : REAL { CustomGroupReference('c549cd0d-fe27-4ac7-be63-2bb271094241') } {Id('90095301-02db-4029-9fee-11eb38c39dcb')};
+    GameOver : BOOL { CustomGroupReference('c549cd0d-fe27-4ac7-be63-2bb271094241') } {Id('ab89768a-64d5-4911-8dba-c838683927b5')};
+    CurrentPieceNum : INT { CustomGroupReference('c549cd0d-fe27-4ac7-be63-2bb271094241') } {Id('487569ff-aaf5-48f5-a0a8-2bf9d3bb3193')};
+    NewPiece : BOOL { CustomGroupReference('c549cd0d-fe27-4ac7-be63-2bb271094241') } {Id('91dc852a-64dd-4341-80b9-032f65ee3678')};
+    FinishedPieces : BOOL { CustomGroupReference('c549cd0d-fe27-4ac7-be63-2bb271094241') } {Id('489d9d2c-d520-4fc2-afa4-807443d608f3')};
+END_VAR

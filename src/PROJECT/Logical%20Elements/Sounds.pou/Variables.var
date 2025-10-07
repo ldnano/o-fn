@@ -1,0 +1,27 @@
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+
+VAR_EXTERNAL
+    IntroSound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('83d8d141-21ca-48e0-9409-bd864346b652')};
+    FailSound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('02117d9b-ee05-4e51-b823-120f73920ca9')};
+    SuccessSound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4cfb3e2c-fe9e-4667-b148-904da10180ef')};
+    Player1Sound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f0ccc34f-8137-4022-a197-730d86f183e0')};
+    Player2Sound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1da2183f-50db-4319-8a93-150d4d97126d')};
+    Player3Sound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1fe401af-4764-42e0-b4aa-fd0f531aee36')};
+    Player4Sound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e65920c0-793c-45bf-8340-dbd05c93b54f')};
+    HawkSound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2badca4b-abb2-4b69-b798-9e203dc46351')};
+    WinnerSound : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('39ce1d91-0fc4-4b02-b338-7ec7b2d187a0')};
+    intro_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d64fe864-846d-42c1-aeb2-a9d7d47a78e2')};
+    fail_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7b9af7ed-97e7-487c-aeb1-fc0e64e8887d')};
+    success_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cd2cb23f-1297-4fc2-95eb-75a2508f09b7')};
+    p1_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b688a852-4bc7-426a-86a6-88ac4d9e309f')};
+    p2_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4472ff12-e4f4-4692-b3dd-8176479ce8e8')};
+    p3_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('5565b2e3-da1f-435b-8a04-ce37cead100f')};
+    p4_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('45da6445-3dc7-4cd8-92e1-750b78fe79c7')};
+    hawk_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1de58d7f-198e-4eca-814f-08a0a316bb12')};
+    winner_sound_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d29d4517-ef68-4c98-9503-fd6194541120')};
+    sound_timer : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d41d3e00-f558-4b14-b7cb-e6bc5235d541')};
+    sound_timer_type : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('00355b38-cc0e-4891-a752-4ac458de8fa9')};
+    sound_timer_enabled : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e43386d8-82b6-4fda-8104-d096b6ad198f')};
+    WinningPlayerNum : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a39812b4-a29c-4024-b2c2-eb9010c51e47')};
+    winners : playerScores { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6ecdaa86-8a6a-40b2-8cac-a3846cce1883')};
+END_VAR

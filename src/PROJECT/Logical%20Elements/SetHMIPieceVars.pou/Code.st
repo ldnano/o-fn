@@ -1,0 +1,11 @@
+p1_in := NOT(piece1_dist);
+p2_in := NOT(piece2_dist);
+p3_in := NOT(piece3_dist);
+p4_in := NOT(piece4_dist);
+p5_in := NOT(piece5_dist);
+p6_in := NOT(piece6_dist);
+p7_in := NOT(piece7_dist);
+p8_in := NOT(piece8_dist);
+p9_in := NOT(piece9_dist);
+p10_in := NOT(piece10_dist);
+p11_in := NOT(piece11_dist);

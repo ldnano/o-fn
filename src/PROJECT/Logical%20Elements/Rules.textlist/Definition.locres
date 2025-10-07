@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>105</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="Default">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="101" Name="[0, 0]">
+    <Values LanguageID="0" LocalValue="A random piece to be removed will be shown on the screen. If you touch the sides of the cavity with the tongs, you lose. Place each piece on the operating tray after removing it. You will have 60 seconds to remove all of the pieces." />
+  </Resources>
+  <Resources ID="102" Name="[1, 1]">
+    <Values LanguageID="0" LocalValue="Each player will be shown a peice to be removed. If someone touches the sides of the cavity with the tongs, the other players will have the chance to &quot;steal&quot; that piece and try to remove it themselves. Place each piece on the operating tray after removing it. You will have a total of 60 seconds to remove all of the pieces." />
+  </Resources>
+  <Resources ID="103" Name="[2, 2]">
+    <Values LanguageID="0" LocalValue="Each player will be shown a peice to be removed. If someone touches the sides of the cavity with the tongs, the other players will have the chance to &quot;steal&quot; that piece and try to remove it themselves. Place each piece on the operating tray after removing it. You will have a total of 60 seconds to remove all of the pieces." />
+  </Resources>
+  <Resources ID="104" Name="[3, 3]">
+    <Values LanguageID="0" LocalValue="BRUTAL MODE: Coming soon..." />
+  </Resources>
+</ResourcesDocument>
