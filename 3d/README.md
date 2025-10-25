@@ -1,7 +1,14 @@
 # 🧊 3D Files
 
-## How to print
+## How to use
+
+- Bottom Shell
+- Clear Sheet
+- Top Container
+- Conductive Walls
+- Pedastals/Supports
 
 ## How to edit
 
-## How to "remix"
+In Fusion360 / SketchUp
+
