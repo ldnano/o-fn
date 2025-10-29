@@ -30,8 +30,8 @@ A full manual containing operation (pun-intended) and gameplay instructions for 
 This monorepo includes all of the components of the project one would need to reproduce, update, or extend the original version contained within. The specific documentation most relevant to this objective are:
 
 * `/src` - The PLCNext Engineer project codebase
-* `WIRING.md` - The electrical wiring configuration
+* `/docs/WIRING.png` - The electrical wiring configuration
 * `/3d` - The 3d-print-ready piece and cavity files
-* `/build` - The wood, glass, tong, and vinyl construction
+* `/diy` - The wood, glass, tong, and vinyl construction (WIP)
 * `/assets` - Files related to art, SFX, music, and branding
-* `EXPENSES.md` - A budgeted list of components (& sources!)
+* `/diy/EXPENSES.md` - A budgeted list of components (& sources!)
