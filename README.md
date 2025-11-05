@@ -92,19 +92,19 @@ As a singleplayer game, players of blitz mode aim to remove every piece in the l
 
 ### List of Pieces
 
-| Piece Icon | Card Design | Name | Value |
-|------------|-------------|------|-------|
-| ![LD Insignia Icon](assets/piece_icons/ld.png) | ![LD Insignia Card](assets/cards/ld.png) | LD Insignia | $500 |
-| ![Football Icon](assets/piece_icons/football.png) | ![Football Card](assets/cards/football.png) | Football | $200 |
-| ![Jersey Icon](assets/piece_icons/jersey.png) | ![Jersey Card](assets/cards/jersey.png) | Jersey | $100 |
-| ![Hockey Stick Icon](assets/piece_icons/stick.png) | ![Hockey Stick Card](assets/cards/stick.png) | Hockey Stick | $400 |
-| ![Music Note Icon](assets/piece_icons/note.png) | ![Music Note Card](assets/cards/note.png) | Music Note | $700 |
-| ![Paintbrush Icon](assets/piece_icons/brush.png) | ![Paintbrush Card](assets/cards/brush.png) | Paintbrush | $600 |
-| ![Chess King Icon](assets/piece_icons/king.png) | ![Chess King Card](assets/cards/king.png) | Chess King | $800 |
-| ![Feather Icon](assets/piece_icons/feather.png) | ![Feather Card](assets/cards/feather.png) | Feather | $900 |
-| ![Bone Icon](assets/piece_icons/femur.png) | ![Bone Card](assets/cards/femur.png) | Bone | $400 |
-| ![Apple Icon](assets/piece_icons/apple.png) | ![Apple Card](assets/cards/apple.png) | Apple | $1000 |
-| ![Flask Icon](assets/piece_icons/flask.png) | ![Flask Card](assets/cards/flask.png) | Flask | $300 |
+| Piece Icon | Card Design | Name | Game Value |
+|------------|-------------|------|------------|
+| <img src="assets/piece_icons/ld.png" width=50> | <img src="assets/cards/ld.png" height=100> | LD Insignia | $500 |
+| <img src="assets/piece_icons/football.png" width=50> | <img src="assets/cards/football.png" height=100> | Football | $200 |
+| <img src="assets/piece_icons/jersey.png" width=50> | <img src="assets/cards/jersey.png" height=100> | Jersey | $100 |
+| <img src="assets/piece_icons/stick.png" width=50> | <img src="assets/cards/stick.png" height=100> | Hockey Stick | $400 |
+| <img src="assets/piece_icons/note.png" width=50> | <img src="assets/cards/note.png" height=100> | Music Note | $700 |
+| <img src="assets/piece_icons/brush.png" width=50> | <img src="assets/cards/brush.png" height=100> | Paintbrush | $600 |
+| <img src="assets/piece_icons/king.png" height=50> | <img src="assets/cards/king.png" height=100> | Chess King | $800 |
+| <img src="assets/piece_icons/feather.png" width=50> | <img src="assets/cards/feather.png" height=100> | Feather | $900 |
+| <img src="assets/piece_icons/femur.png" width=50> | <img src="assets/cards/femur.png" height=100> | Bone | $400 |
+| <img src="assets/piece_icons/apple.png" width=50> | <img src="assets/cards/apple.png" height=100> | Apple | $1000 |
+| <img src="assets/piece_icons/flask.png" width=50> | <img src="assets/cards/flask.png" height=100> | Flask | $300 |
 
 ### Cavity Anatomy
 
