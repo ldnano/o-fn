@@ -102,7 +102,7 @@ As a singleplayer game, players of blitz mode aim to remove every piece in the l
 | ![Paintbrush Icon](assets/piece_icons/brush.png) | ![Paintbrush Card](assets/cards/brush.png) | Paintbrush | $600 |
 | ![Chess King Icon](assets/piece_icons/king.png) | ![Chess King Card](assets/cards/king.png) | Chess King | $800 |
 | ![Feather Icon](assets/piece_icons/feather.png) | ![Feather Card](assets/cards/feather.png) | Feather | $900 |
-| ![Bone Icon](assets/piece_icons/bone.png) | ![Bone Card](assets/cards/bone.png) | Bone | $400 |
+| ![Bone Icon](assets/piece_icons/femur.png) | ![Bone Card](assets/cards/femur.png) | Bone | $400 |
 | ![Apple Icon](assets/piece_icons/apple.png) | ![Apple Card](assets/cards/apple.png) | Apple | $1000 |
 | ![Flask Icon](assets/piece_icons/flask.png) | ![Flask Card](assets/cards/flask.png) | Flask | $300 |
 
